@@ -8,6 +8,7 @@ parts:
       - file: general-info/safety
       - file: general-info/writing
       - file: general-info/seminar
+      - file: general-info/prerequisites
 
   - caption: Experiments
     chapters:
@@ -19,5 +20,6 @@ parts:
     chapters:
       - file: appendix/data-analysis/overview
       - file: appendix/data-analysis/uncertainty
+      - file: appendix/library
       - file: appendix/references
       - file: appendix/templates
