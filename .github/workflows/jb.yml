@@ -5,15 +5,31 @@ on:
   workflow_dispatch:
 jobs:
   build-deploy:
+    name: Build Jupyter Book and Deploy to gh-pages
     runs-on: ubuntu-latest
-    permissions: { contents: write, pages: write, id-token: write }
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - run: pip install -U jupyter-book
-      - run: jupyter-book build .
-      - uses: peaceiris/actions-gh-pages@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Jupyter Book
+        run: pip install -U jupyter-book
+      - name: Build book
+        run: jupyter-book build .
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _build/html

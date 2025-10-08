@@ -43,9 +43,13 @@ advanced-lab-handbook/
 
 Additional experiment modules can be added under `experiments/`, and further tutorials can be contributed to `tutorials/`.
 
+## Online handbook
+
+The latest rendered version of the Advanced Lab Handbook is published via GitHub Pages at <https://adv-labs-ufr.github.io/handbook/>. Each successful workflow run updates this site with the contents of `_build/html`, so you can always browse the most recent materials directly in your browser.
+
 ## Continuous integration & deployment
 
-GitHub Actions automatically builds the Jupyter Book on every push to the `main` branch. Successful builds are published to GitHub Pages, ensuring that the online handbook stays in sync with the repository. The workflow installs dependencies from `binder/requirements.txt` and runs `jupyter-book build .` to verify the site.
+GitHub Actions automatically builds the Jupyter Book on every push to the `main` branch. Successful builds are published to GitHub Pages, ensuring that the online handbook stays in sync with the repository. The workflow installs dependencies from `binder/requirements.txt` and runs `jupyter-book build .` to verify the site before deploying `_build/html`.
 
 ## Using Binder
 
