@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euxo pipefail
+echo "Binder environment for the Advanced Lab Handbook is ready!"
