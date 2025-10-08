@@ -9,5 +9,7 @@ Use this appendix for detailed methods:
 Main pages stay short; link here when depth is needed.
 
 **Interactive resources:**
-- [Gaussian fit walkthrough](gaussian-fit.ipynb)
-- [Bootstrap resampling demo](bootstrap.ipynb)
+- {download}`Gaussian fit walkthrough <gaussian-fit.ipynb>`
+- {download}`Bootstrap resampling demo <bootstrap.ipynb>`
+
+See {doc}`/appendix/data-analysis/uncertainty` for deeper treatment of error analysis and {doc}`/appendix/quick-reference` for a concise checklist of key steps.
