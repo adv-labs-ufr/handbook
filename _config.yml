@@ -19,15 +19,18 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   extra_footer: |
-    <p>© University of Freiburg – Advanced Lab. Text/figures: CC BY 4.0 · Code: MIT.</p>
+    <p>Text & figures: CC BY 4.0 · Code: MIT</p>
 
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
 
 repository:
-  url: https://github.com/physik-freiburg/advanced-lab-handbook
+  url: https://github.com/adv-labs-ufr/handbook
   branch: main
+  path_to_book: ""
+
+copyright: ""
 
 launch_buttons:
   binderhub_url: https://mybinder.org
