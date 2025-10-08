@@ -21,6 +21,10 @@ html:
   extra_footer: |
     <p>© University of Freiburg – Advanced Lab. Text/figures: CC BY 4.0 · Code: MIT.</p>
 
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
+
 repository:
   url: https://github.com/physik-freiburg/advanced-lab-handbook
   branch: main
