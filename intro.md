@@ -9,9 +9,16 @@ Administrative items (schedules, team assignments, quizzes, grading, uploads) ar
 ## 🧭 Where You Are in the Process
 ```{mermaid}
 graph LR
-  A(Preparation) --> B(Safety) --> C(Experiments) --> D(Writing) --> E(Seminar)
+  A(Preparation) --> B(Safety) --> C(Lab Work) --> D(Data Analysis & Writing) --> E(Seminar · if required)
 ```
-(≈ 5-min read per section)
+
+Read order (short pages):
+1. Prerequisites → what you’re expected to know before starting
+2. Preparation → complete your plan for day 1
+3. Safety → confirm ILIAS trainings; know rules and contacts
+4. Lab Work → how to work in the room (lab notes! instruments! data handling!)
+5. Data Analysis & Writing → turn data into results; IMRaD report
+6. Seminar (if required) → present results effectively
 
 ---
 
@@ -21,8 +28,8 @@ graph LR
 | --- | --- | --- |
 | Preparation | Before Day 1 | Complete these steps to hit the ground running. |
 | Safety | During lab work | Protect yourself and others; required for lab access. |
-| Experiments | Core activity | Apply scientific methods with precision and care. |
-| Writing | After measurements | Communicate your results clearly and honestly. |
+| Lab Work | Core activity | Apply scientific methods with precision and care; document everything. |
+| Data Analysis & Writing | After measurements | Turn measurements into results and communicate them clearly. |
 | Seminar | Final presentation | Share findings effectively with your peers. |
 
 ---
@@ -74,7 +81,7 @@ All work in this lab follows the [Principles of Good Scientific Practice](https:
 Appendix topics available:
 - [Error & Uncertainty Analysis](appendix/data-analysis/uncertainty)
 - [Plotting & Fitting Guidelines](appendix/data-analysis/overview)
-- [IMRaD Writing Guidance](general-info/writing)
+- [IMRaD Writing Guidance](general-info/data-analysis-writing)
 - [Recommended Literature](appendix/library)
 
 ---

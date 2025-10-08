@@ -4,11 +4,12 @@ root: intro
 parts:
   - caption: General Information
     chapters:
+      - file: general-info/prerequisites
       - file: general-info/preparation
       - file: general-info/safety
-      - file: general-info/writing
+      - file: general-info/lab-work
+      - file: general-info/data-analysis-writing
       - file: general-info/seminar
-      - file: general-info/prerequisites
 
   - caption: Experiments
     chapters:
