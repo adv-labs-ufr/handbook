@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Advanced Lab Handbook (Quick Guide) &#8212; Advanced Lab Handbook – General Information</title>
+    <title>Advanced Lab Handbook – Quick Guide &#8212; Advanced Lab Handbook – General Information</title>
   
   
   
@@ -57,6 +57,14 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs"></script>
+    <script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";import elkLayouts from "https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.4/dist/mermaid-layout-elk.esm.min.mjs";mermaid.registerLayoutLoaders(elkLayouts);mermaid.initialize({startOnLoad:false});</script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+    <script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.2.0/dist/mermaid.esm.min.mjs";
+window.addEventListener("load", () => mermaid.run());
+</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="icon" href="_static/favicon.svg"/>
     <link rel="index" title="Index" href="genindex.html" />
@@ -171,7 +179,7 @@
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Advanced Lab Handbook (Quick Guide)
+                    Advanced Lab Handbook – Quick Guide
                 </a>
             </li>
         </ul>
@@ -194,6 +202,7 @@
 <li class="toctree-l1"><a class="reference internal" href="appendix/data-analysis/overview.html">Data Analysis – Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="appendix/data-analysis/uncertainty.html">Uncertainty – Practical Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="appendix/library.html">Library (Books &amp; Key References)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/quick-reference.html">Quick Reference Cards</a></li>
 <li class="toctree-l1"><a class="reference internal" href="appendix/references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="appendix/templates.html">Templates</a></li>
 </ul>
@@ -385,7 +394,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -396,11 +407,25 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Advanced Lab Handbook (Quick Guide)</h1>
+    <h1>Advanced Lab Handbook – Quick Guide</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#where-you-are-in-the-process">🧭 Where You Are in the Process</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-purpose-why-this-matters">🎯 Section Purpose – “Why This Matters”</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-references">🧩 Quick References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#are-you-ready">✅ Are You Ready?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scientific-honesty">⚖️ Scientific Honesty</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#emergency-contact">🆘 Emergency &amp; Contact</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#explore-further">📚 Explore Further</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -411,21 +436,110 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="advanced-lab-handbook-quick-guide">
-<h1>Advanced Lab Handbook (Quick Guide)<a class="headerlink" href="#advanced-lab-handbook-quick-guide" title="Link to this heading">#</a></h1>
-<p>This handbook is intentionally <strong>short and practical</strong>.<br />
-Administrative items (schedules, team assignments, quizzes, grading, uploads) are <strong>only on ILIAS</strong>.</p>
-<p><strong>Read this first:</strong></p>
-<ul class="simple">
-<li><p>Preparation → what to do before day 1</p></li>
-<li><p>Safety → rules you must follow</p></li>
-<li><p>Writing → IMRaD report basics</p></li>
-<li><p>Seminar → how to present results</p></li>
-</ul>
-<p>For detailed methods and analysis how-tos, see <strong>Appendix</strong>.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Go to the ILIAS course page for schedules, entrance/safety quizzes, grading sheets, and report uploads. This handbook hosts only open guidance.</p>
+<h1>Advanced Lab Handbook – Quick Guide<a class="headerlink" href="#advanced-lab-handbook-quick-guide" title="Link to this heading">#</a></h1>
+<p>Welcome!<br />
+This handbook is <strong>intentionally short and practical</strong>. It helps you navigate the Advanced Laboratory Classes (FP-I, FP-II, FP-EDU) efficiently.<br />
+Administrative items (schedules, team assignments, quizzes, grading, uploads) are handled <strong>exclusively on <a class="reference external" href="https://ilias.uni-freiburg.de/goto.php/crs/4019573">ILIAS</a></strong>.</p>
+<hr class="docutils" />
+<section id="where-you-are-in-the-process">
+<h2>🧭 Where You Are in the Process<a class="headerlink" href="#where-you-are-in-the-process" title="Link to this heading">#</a></h2>
+<pre  class="mermaid">
+        graph LR
+  A(Preparation) --&gt; B(Safety) --&gt; C(Experiments) --&gt; D(Writing) --&gt; E(Seminar)
+    </pre><p>(≈ 5-min read per section)</p>
+</section>
+<hr class="docutils" />
+<section id="section-purpose-why-this-matters">
+<h2>🎯 Section Purpose – “Why This Matters”<a class="headerlink" href="#section-purpose-why-this-matters" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Section</p></th>
+<th class="head"><p>Focus</p></th>
+<th class="head"><p>Why it matters</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Preparation</p></td>
+<td><p>Before Day 1</p></td>
+<td><p>Complete these steps to hit the ground running.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Safety</p></td>
+<td><p>During lab work</p></td>
+<td><p>Protect yourself and others; required for lab access.</p></td>
+</tr>
+<tr class="row-even"><td><p>Experiments</p></td>
+<td><p>Core activity</p></td>
+<td><p>Apply scientific methods with precision and care.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Writing</p></td>
+<td><p>After measurements</p></td>
+<td><p>Communicate your results clearly and honestly.</p></td>
+</tr>
+<tr class="row-even"><td><p>Seminar</p></td>
+<td><p>Final presentation</p></td>
+<td><p>Share findings effectively with your peers.</p></td>
+</tr>
+</tbody>
+</table>
 </div>
+</section>
+<hr class="docutils" />
+<section id="quick-references">
+<h2>🧩 Quick References<a class="headerlink" href="#quick-references" title="Link to this heading">#</a></h2>
+<p>You can access concise reference cards any time:</p>
+<ul class="simple">
+<li><p><span class="xref std std-ref">Safety Checklist</span></p></li>
+<li><p><a class="reference internal" href="appendix/quick-reference.html#imrad-card"><span class="std std-ref">IMRaD Report Template</span></a></p></li>
+<li><p><a class="reference internal" href="appendix/data-analysis/uncertainty.html"><span class="doc std std-doc">Uncertainty &amp; Data Analysis</span></a></p></li>
+<li><p><a class="reference internal" href="appendix/quick-reference.html#troubleshooting-card"><span class="std std-ref">Equipment Troubleshooting</span></a></p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="are-you-ready">
+<h2>✅ Are You Ready?<a class="headerlink" href="#are-you-ready" title="Link to this heading">#</a></h2>
+<p>Before entering the lab, confirm you can:</p>
+<ul class="simple">
+<li><p>Explain your experiment’s aim and expected signals.</p></li>
+<li><p>Distinguish statistical from systematic uncertainties.</p></li>
+<li><p>Operate lab instruments safely (after tutor introduction).</p></li>
+<li><p>Record data in a reproducible way (chronological, clear, honest).</p></li>
+<li><p>Follow the institute’s safety and honesty guidelines.</p></li>
+</ul>
+<p>You’re ready when you can check all boxes confidently.</p>
+</section>
+<hr class="docutils" />
+<section id="scientific-honesty">
+<h2>⚖️ Scientific Honesty<a class="headerlink" href="#scientific-honesty" title="Link to this heading">#</a></h2>
+<p>All work in this lab follows the <a class="reference external" href="https://www.physik.uni-freiburg.de/redlichkeit-en">Principles of Good Scientific Practice</a>.</p>
+<ul class="simple">
+<li><p>Record every observation truthfully and in order.</p></li>
+<li><p>Never delete or alter raw data; annotate corrections instead.</p></li>
+<li><p>Cite all sources and collaborators transparently.</p></li>
+<li><p>Report uncertainties even when results look “wrong.”</p></li>
+<li><p>Uphold integrity: reproducibility &gt; perfection.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="emergency-contact">
+<h2>🆘 Emergency &amp; Contact<a class="headerlink" href="#emergency-contact" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Emergency: 112 (internal phones: 0-112)</p></li>
+<li><p>Institute safety officer: (to be confirmed)</p></li>
+<li><p>Course organizers: fp&#64;physik.uni-freiburg.de</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="explore-further">
+<h2>📚 Explore Further<a class="headerlink" href="#explore-further" title="Link to this heading">#</a></h2>
+<p>Appendix topics available:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="appendix/data-analysis/uncertainty.html"><span class="doc std std-doc">Error &amp; Uncertainty Analysis</span></a></p></li>
+<li><p><a class="reference internal" href="appendix/data-analysis/overview.html"><span class="doc std std-doc">Plotting &amp; Fitting Guidelines</span></a></p></li>
+<li><p><a class="reference internal" href="appendix/templates.html"><span class="doc std std-doc">LaTeX Tips &amp; Report Templates</span></a></p></li>
+<li><p><a class="reference internal" href="appendix/library.html"><span class="doc std std-doc">Recommended Literature</span></a></p></li>
+</ul>
+</section>
+<hr class="docutils" />
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -479,6 +593,27 @@ Administrative items (schedules, team assignments, quizzes, grading, uploads) ar
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#where-you-are-in-the-process">🧭 Where You Are in the Process</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-purpose-why-this-matters">🎯 Section Purpose – “Why This Matters”</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-references">🧩 Quick References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#are-you-ready">✅ Are You Ready?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scientific-honesty">⚖️ Scientific Honesty</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#emergency-contact">🆘 Emergency &amp; Contact</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#explore-further">📚 Explore Further</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
