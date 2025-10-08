@@ -8,5 +8,5 @@
 **Goal:** Demonstrate you can plan **safe, meaningful** measurements.
 
 ```{tip}
-See Appendix → Templates for a detailed preparation checklist and lab-notes layout.
+See the [Quick Reference cards](../appendix/quick-reference) for a detailed preparation checklist and lab-notes layout.
 ```

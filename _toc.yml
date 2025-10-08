@@ -23,4 +23,3 @@ parts:
       - file: appendix/library
       - file: appendix/quick-reference
       - file: appendix/references
-      - file: appendix/templates

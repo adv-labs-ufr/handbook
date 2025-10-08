@@ -7,5 +7,5 @@
 **Formal acknowledgements, quizzes, and records are on ILIAS.**
 
 ```{warning}
-Appendix → Templates collects full safety checklists and incident reporting notes.
+The [Quick Reference cards](../appendix/quick-reference) include full safety checklists and incident reporting notes.
 ```
