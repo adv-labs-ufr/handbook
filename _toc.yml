@@ -1,12 +1,23 @@
 format: jb-book
 root: intro
 
-chapters:
-  - file: general-guidelines/how-to-use
-  - file: general-guidelines/preparation
-  - file: general-guidelines/safety
-  - file: general-guidelines/scientific-writing
-  - file: general-guidelines/data-analysis-uncertainty
-  - file: general-guidelines/report-template
-  - file: general-guidelines/seminar-checklist
-  - file: general-guidelines/ilias-and-submission
+parts:
+  - caption: General Information
+    chapters:
+      - file: general-info/preparation
+      - file: general-info/safety
+      - file: general-info/writing
+      - file: general-info/seminar
+
+  - caption: Experiments
+    chapters:
+      - file: experiments/raman/overview
+      - file: experiments/mossbauer/overview
+      - file: experiments/optical-pumping/overview
+
+  - caption: Appendix
+    chapters:
+      - file: appendix/data-analysis/overview
+      - file: appendix/data-analysis/uncertainty
+      - file: appendix/references
+      - file: appendix/templates
