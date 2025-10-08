@@ -1,0 +1,20 @@
+title: "Advanced Lab Handbook"
+author: "Physikalisches Institut, Universität Freiburg"
+execute:
+  execute_notebooks: "off"
+html:
+  use_repository_button: true
+  use_edit_page_button: true
+  use_issues_button: true
+repository:
+  url: https://github.com/UniFreiburg-Physics/advanced-lab-handbook
+  path_to_book: .
+  branch: main
+launch_buttons:
+  binderhub_url: https://mybinder.org
+  notebook_interface: jupyterlab
+sphinx:
+  config:
+    exclude_patterns:
+      - README.md
+      - _build

@@ -1,0 +1,6 @@
+format: jb-book
+root: index
+chapters:
+  - file: general-guidelines/overview
+  - file: tutorials/gaussian_fit
+  - file: experiments/raman/introduction
