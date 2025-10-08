@@ -4,8 +4,8 @@ Short, printable checklists for on-site use.
 Keep this page open during lab work or print it for your folder.  
 Each section begins with a brief note on **why it matters**.
 
----
 
+(safety-card)=
 ## 1) Safety – Essential
 
 **Why this matters:**  
@@ -27,8 +27,8 @@ Completing formal training ensures you understand expectations before touching e
 - [ ] Read and sign all relevant safety instructions before your first experiment.  
 - [ ] **General safety training completed on [ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** before day one in the lab.
 
----
 
+(laser-safety-card)=
 ### Laser Safety
 **Why this matters:**  
 Lasers can cause permanent eye or skin injury and invisible hazards due to infrared or ultraviolet radiation.  
@@ -44,8 +44,8 @@ Even low-power beams can be dangerous when misaligned or unmonitored.
 - [ ] Power levels, filters, and alignment procedures logged in lab notes.  
 - [ ] Never align a laser “by eye” — use cards, viewers, or low-power alignment beams.  
 
----
 
+(radiation-safety-card)=
 ### Radiation Safety
 **Why this matters:**  
 Handling radioactive sources requires heightened awareness and adherence to legal protocols.  
@@ -114,8 +114,8 @@ Your report and grade depend on what is documented here.
 - **Issues & fixes** (what changed, when, who)  
 - Sign at the end of each session; never delete entries, only annotate corrections  
 
----
 
+(imrad-card)=
 ## 3) IMRaD – 1-Page Skeleton
 
 **Why this matters:**  
@@ -187,8 +187,8 @@ This is the habit of every professional experimentalist.
 - [ ] Bias polarity correct; dark current recorded  
 - [ ] Connectors and feedthroughs clean and tight  
 
----
 
+(troubleshooting-card)=
 ## 7) Troubleshooting – Common Paths
 
 **Why this matters:**  
