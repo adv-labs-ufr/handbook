@@ -1,13 +1,16 @@
-# Advanced Lab Handbook – General Information
+# Advanced Lab Handbook (Quick Guide)
 
-Welcome! This Jupyter Book provides **general guidance** for all Advanced Laboratory classes (FP-I, FP-II, FP-EDU).  
-Administrative and privacy-sensitive items (schedules, team assignments, quizzes, grading, submissions) are handled exclusively via **ILIAS**.
+This handbook is intentionally **short and practical**.  
+Administrative items (schedules, team assignments, quizzes, grading, uploads) are **only on ILIAS**.
 
-**Use this book to:**
-- Prepare efficiently for labs and entrance discussions
-- Follow safety guidance and checklists
-- Learn scientific writing best practices (IMRaD)
-- Treat data analysis and uncertainty rigorously
-- Prepare your seminar presentation
+**Read this first:**
+- Preparation → what to do before day 1
+- Safety → rules you must follow
+- Writing → IMRaD report basics
+- Seminar → how to present results
 
-> Submission & grading → See **ILIAS** (link in the last section).
+For detailed methods and analysis how-tos, see **Appendix**.
+
+```{note}
+Go to the ILIAS course page for schedules, entrance/safety quizzes, grading sheets, and report uploads. This handbook hosts only open guidance.
+```
