@@ -21,5 +21,6 @@ parts:
       - file: appendix/data-analysis/overview
       - file: appendix/data-analysis/uncertainty
       - file: appendix/library
+      - file: appendix/quick-reference
       - file: appendix/references
       - file: appendix/templates
