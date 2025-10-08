@@ -211,8 +211,8 @@ Act quickly but never alone.
 
 1. **Stop** the source (laser shutter, HV off, pump stop if safe)  
 2. **Warn** others; clear the area  
-3. **Call** emergency **112** (internal phones: 0–112)  
-4. **Inform** tutor and safety officer immediately  
+3. **Call** emergency **112** (organizer: (0761) 203-7645)  
+4. **Inform** tutor and organizer immediately  
 5. **Document** the event in your lab notes afterward  
 
 ---
