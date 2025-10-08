@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Mössbauer Spectroscopy — Overview &#8212; Advanced Lab Handbook – General Information</title>
+    <title>Gaussian Fit Walkthrough &#8212; Advanced Lab Handbook – General Information</title>
   
   
   
@@ -57,12 +57,12 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'experiments/mossbauer/overview';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'appendix/data-analysis/gaussian-fit';</script>
     <link rel="icon" href="../../_static/favicon.svg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Optical Pumping — Overview" href="../optical-pumping/overview.html" />
-    <link rel="prev" title="Raman Spectroscopy — Overview" href="../raman/overview.html" />
+    <link rel="next" title="Bootstrap Resampling Demo" href="bootstrap-resampling.html" />
+    <link rel="prev" title="Data Analysis – Overview" href="overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -184,20 +184,20 @@
 <li class="toctree-l1"><a class="reference internal" href="../../general-info/seminar.html">Seminar (if required for your course)</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../raman/overview.html">Raman Spectroscopy — Overview</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Mössbauer Spectroscopy — Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../optical-pumping/overview.html">Optical Pumping — Overview</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../experiments/raman/overview.html">Raman Spectroscopy — Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiments/mossbauer/overview.html">Mössbauer Spectroscopy — Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../experiments/optical-pumping/overview.html">Optical Pumping — Overview</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/data-analysis/overview.html">Data Analysis – Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/data-analysis/gaussian-fit.html">Gaussian Fit Walkthrough</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/data-analysis/bootstrap-resampling.html">Bootstrap Resampling Demo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/data-analysis/uncertainty.html">Uncertainty – Practical Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/library.html">Library (Books &amp; Key References)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/quick-reference.html">Quick Reference Cards</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../appendix/references.html">References</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Data Analysis – Overview</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Gaussian Fit Walkthrough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bootstrap-resampling.html">Bootstrap Resampling Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uncertainty.html">Uncertainty – Practical Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../library.html">Library (Books &amp; Key References)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference.html">Quick Reference Cards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
 </ul>
 
     </div>
@@ -244,6 +244,37 @@
 
 
 
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?urlpath=tree/appendix/data-analysis/gaussian-fit.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
 <div class="dropdown dropdown-source-buttons">
   <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
     <i class="fab fa-github"></i>
@@ -269,7 +300,7 @@
       
       
       
-      <li><a href="https://github.com/adv-labs-ufr/handbook/edit/main/experiments/mossbauer/overview.md" target="_blank"
+      <li><a href="https://github.com/adv-labs-ufr/handbook/edit/main/appendix/data-analysis/gaussian-fit.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -286,7 +317,7 @@
       
       
       
-      <li><a href="https://github.com/adv-labs-ufr/handbook/issues/new?title=Issue%20on%20page%20%2Fexperiments/mossbauer/overview.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/adv-labs-ufr/handbook/issues/new?title=Issue%20on%20page%20%2Fappendix/data-analysis/gaussian-fit.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -316,7 +347,7 @@
       
       
       
-      <li><a href="../../_sources/experiments/mossbauer/overview.md" target="_blank"
+      <li><a href="../../_sources/appendix/data-analysis/gaussian-fit.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -326,7 +357,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.md</span>
+<span class="btn__text-container">.ipynb</span>
 </a>
 </li>
       
@@ -398,7 +429,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Mössbauer Spectroscopy — Overview</h1>
+    <h1>Gaussian Fit Walkthrough</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -412,23 +443,55 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="mossbauer-spectroscopy-overview">
-<h1>Mössbauer Spectroscopy — Overview<a class="headerlink" href="#mossbauer-spectroscopy-overview" title="Link to this heading">#</a></h1>
-<p><strong>Aim (1–2 lines):</strong><br />
-Resolve hyperfine splitting in iron-containing samples and extract isomer shift and magnetic field parameters.</p>
-<p><strong>You will do (bullets):</strong></p>
-<ul class="simple">
-<li><p>Calibrate the velocity drive using a reference absorber.</p></li>
-<li><p>Measure transmission spectra for absorber(s) at multiple temperatures or fields.</p></li>
-<li><p>Fit resonance lines to obtain shifts/splittings with propagated uncertainties.</p></li>
-</ul>
-<p><strong>Experimental details:</strong><br />
-<a class="reference download internal" download="" href="../../_downloads/1980bf6581690f4c14180ed466febe8b/setup.pdf"><span class="xref download myst">Download the full description (PDF)</span></a></p>
-<p><strong>Notes:</strong></p>
-<ul class="simple">
-<li><p>Submit lab notes and report via <strong>ILIAS</strong> (link on course page).</p></li>
-<li><p>Keep lab notes chronological; include sketches, parameters, and preliminary plots.</p></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="gaussian-fit-walkthrough">
+<h1>Gaussian Fit Walkthrough<a class="headerlink" href="#gaussian-fit-walkthrough" title="Link to this heading">#</a></h1>
+<p>Demonstrates curve fitting of synthetic Gaussian data with noise.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.optimize</span><span class="w"> </span><span class="kn">import</span> <span class="n">curve_fit</span>
+
+<span class="c1"># Define model</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">gaussian</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">A</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">A</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mu</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+
+<span class="c1"># Generate synthetic data</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+<span class="n">y_true</span> <span class="o">=</span> <span class="n">gaussian</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">A</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">mu</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mf">1.0</span><span class="p">)</span>
+<span class="n">y_noise</span> <span class="o">=</span> <span class="n">y_true</span> <span class="o">+</span> <span class="mf">0.05</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+
+<span class="c1"># Fit model</span>
+<span class="n">popt</span><span class="p">,</span> <span class="n">pcov</span> <span class="o">=</span> <span class="n">curve_fit</span><span class="p">(</span><span class="n">gaussian</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y_noise</span><span class="p">,</span> <span class="n">p0</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">A</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span> <span class="o">=</span> <span class="n">popt</span>
+<span class="n">perr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">diag</span><span class="p">(</span><span class="n">pcov</span><span class="p">))</span>
+
+<span class="c1"># Plot data and fit</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">4</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y_noise</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Data&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;steelblue&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">gaussian</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="o">*</span><span class="n">popt</span><span class="p">),</span> <span class="s1">&#39;r-&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Fit&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Gaussian Fit&quot;</span><span class="p">)</span>
+
+<span class="c1"># Residuals</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y_noise</span> <span class="o">-</span> <span class="n">gaussian</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="o">*</span><span class="n">popt</span><span class="p">),</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Residuals&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A = </span><span class="si">{</span><span class="n">A</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> ± </span><span class="si">{</span><span class="n">perr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;μ = </span><span class="si">{</span><span class="n">mu</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> ± </span><span class="si">{</span><span class="n">perr</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;σ = </span><span class="si">{</span><span class="n">sigma</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> ± </span><span class="si">{</span><span class="n">perr</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -444,7 +507,7 @@ Resolve hyperfine splitting in iron-containing samples and extract isomer shift 
         },
         kernelOptions: {
             name: "python3",
-            path: "./experiments/mossbauer"
+            path: "./appendix/data-analysis"
         },
         predefinedOutput: true
     }
@@ -462,20 +525,20 @@ Resolve hyperfine splitting in iron-containing samples and extract isomer shift 
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../raman/overview.html"
+       href="overview.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Raman Spectroscopy — Overview</p>
+        <p class="prev-next-title">Data Analysis – Overview</p>
       </div>
     </a>
     <a class="right-next"
-       href="../optical-pumping/overview.html"
+       href="bootstrap-resampling.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Optical Pumping — Overview</p>
+        <p class="prev-next-title">Bootstrap Resampling Demo</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

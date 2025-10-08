@@ -61,7 +61,7 @@
     <link rel="icon" href="../../_static/favicon.svg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Uncertainty – Practical Guide" href="uncertainty.html" />
+    <link rel="next" title="Gaussian Fit Walkthrough" href="gaussian-fit.html" />
     <link rel="prev" title="Optical Pumping — Overview" href="../../experiments/optical-pumping/overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -192,6 +192,8 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Analysis – Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gaussian-fit.html">Gaussian Fit Walkthrough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bootstrap-resampling.html">Bootstrap Resampling Demo</a></li>
 <li class="toctree-l1"><a class="reference internal" href="uncertainty.html">Uncertainty – Practical Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../library.html">Library (Books &amp; Key References)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quick-reference.html">Quick Reference Cards</a></li>
@@ -385,7 +387,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -401,6 +405,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gaussian-fit-walkthrough">Gaussian Fit Walkthrough</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bootstrap-resampling-demo">Bootstrap Resampling Demo</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -412,20 +425,21 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="data-analysis-overview">
 <h1>Data Analysis – Overview<a class="headerlink" href="#data-analysis-overview" title="Link to this heading">#</a></h1>
-<p>Use this appendix for detailed methods:</p>
-<ul class="simple">
-<li><p>Uncertainty propagation (statistical vs systematic)</p></li>
-<li><p>Model fitting (residuals, goodness-of-fit)</p></li>
-<li><p>Background modeling (e.g., linear + Gaussian)</p></li>
-<li><p>Bootstrap / resampling (when and why)</p></li>
-</ul>
-<p>Main pages stay short; link here when depth is needed.</p>
-<p><strong>Interactive resources:</strong></p>
-<ul class="simple">
-<li><p><a class="reference download internal" download="" href="../../_downloads/d4a1169943806d0015d55b7b86418d6e/gaussian-fit.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Gaussian</span> <span class="pre">fit</span> <span class="pre">walkthrough</span></code></a></p></li>
-<li><p><a class="reference download internal" download="" href="../../_downloads/f892644922d929d3df8d9f1c168dbbd3/bootstrap.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Bootstrap</span> <span class="pre">resampling</span> <span class="pre">demo</span></code></a></p></li>
-</ul>
-<p>See <a class="reference internal" href="uncertainty.html"><span class="doc">Uncertainty – Practical Guide</span></a> for deeper treatment of error analysis and <a class="reference internal" href="../quick-reference.html"><span class="doc">Quick Reference Cards</span></a> for a concise checklist of key steps.</p>
+<p>Interactive examples are available for direct exploration on Binder.</p>
+<hr class="docutils" />
+<section id="gaussian-fit-walkthrough">
+<h2>Gaussian Fit Walkthrough<a class="headerlink" href="#gaussian-fit-walkthrough" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=appendix/data-analysis/gaussian-fit.ipynb"><img alt="Launch Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
+<p>A step-by-step example of fitting noisy Gaussian data using <code class="docutils literal notranslate"><span class="pre">scipy.optimize.curve_fit</span></code>.<br />
+Shows best-fit parameters, uncertainties, and residual plots.</p>
+</section>
+<hr class="docutils" />
+<section id="bootstrap-resampling-demo">
+<h2>Bootstrap Resampling Demo<a class="headerlink" href="#bootstrap-resampling-demo" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=appendix/data-analysis/bootstrap-resampling.ipynb"><img alt="Launch Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
+<p>A short demo of estimating uncertainty in a sample mean by bootstrap resampling.<br />
+Illustrates the concept of <strong>statistical variation</strong> and how uncertainty emerges from repeated sampling.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -468,11 +482,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="uncertainty.html"
+       href="gaussian-fit.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Uncertainty – Practical Guide</p>
+        <p class="prev-next-title">Gaussian Fit Walkthrough</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -482,6 +496,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gaussian-fit-walkthrough">Gaussian Fit Walkthrough</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bootstrap-resampling-demo">Bootstrap Resampling Demo</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
