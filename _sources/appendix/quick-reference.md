@@ -16,6 +16,8 @@ Respecting safety procedures ensures continuous access to laboratory resources a
 ---
 
 ### General Safety
+**Safety training valid for 12 month and needs to be completed on [ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** before day one in the lab.
+
 **Why this matters:**
 General procedures are your first line of defence against accidents and protect the wider lab community.
 Shared spaces stay safe and efficient only when everyone follows the same baseline rules.
@@ -25,7 +27,6 @@ Completing formal training ensures you understand expectations before touching e
 - [ ] Keep lab areas tidy; no food or drinks in lab rooms.  
 - [ ] Report all incidents, spills, or unsafe conditions to your tutor immediately.  
 - [ ] Read and sign all relevant safety instructions before your first experiment.  
-- [ ] **General safety training completed on [ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** before day one in the lab.
 
 
 (laser-safety-card)=
@@ -35,7 +36,6 @@ Lasers can cause permanent eye or skin injury and invisible hazards due to infra
 Following proper laser-safety rules protects you and everyone sharing the lab.  
 Even low-power beams can be dangerous when misaligned or unmonitored.
 
-- [ ] **Laser safety training completed on [ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** before any optical experiment.  
 - [ ] Eye protection worn when Class 3B or 4 lasers are active; correct wavelength range verified.  
 - [ ] Beam paths clearly marked; no stray reflections toward eye level.  
 - [ ] Optical tables free of unnecessary optics; unused beams dumped securely.  
@@ -52,7 +52,6 @@ Handling radioactive sources requires heightened awareness and adherence to lega
 Radiation protection safeguards not only you but all future users of the facility.  
 Training and strict adherence to procedures are mandatory under German radiation law.
 
-- [ ] **Radiation protection training completed on [ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** before working with sources.  
 - [ ] Only trained and authorized persons may handle or move radioactive sources.  
 - [ ] Dosimeter (if required) worn visibly and returned after the experiment.  
 - [ ] Sources remain in shielded containers when not in use; log all transfers.  
@@ -92,7 +91,7 @@ Following procedures prevents accidents and protects sensitive instrumentation.
 ---
 
 ### Confirmation & Documentation
-- Completion of **general, laser, and radiation safety training** on **[ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** is mandatory for lab participation.  
+- Completion of **Safety training** on **[ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** is mandatory for lab participation – valid for 12 months–only!  
 - Tutors verify training completion before granting experiment access.  
 - Record your training completion in your **lab notes** on day 1.  
 
