@@ -30,10 +30,10 @@ graph LR
 ## 🧩 Quick References
 
 You can access concise reference cards any time:
-- {ref}`Safety Checklist <safety-card>`
-- {ref}`IMRaD Report Template <imrad-card>`
+- <a href="appendix/quick-reference.html#safety-card">Safety Checklist</a>
+- <a href="appendix/quick-reference.html#imrad-card">IMRaD Report Template</a>
 - [Uncertainty & Data Analysis](appendix/data-analysis/uncertainty)
-- {ref}`Equipment Troubleshooting <troubleshooting-card>`
+- <a href="appendix/quick-reference.html#troubleshooting-card">Equipment Troubleshooting</a>
 
 
 ---
@@ -74,7 +74,7 @@ All work in this lab follows the [Principles of Good Scientific Practice](https:
 Appendix topics available:
 - [Error & Uncertainty Analysis](appendix/data-analysis/uncertainty)
 - [Plotting & Fitting Guidelines](appendix/data-analysis/overview)
-- [LaTeX Tips & Report Templates](appendix/templates)
+- [IMRaD Writing Guidance](general-info/writing)
 - [Recommended Literature](appendix/library)
 
 ---

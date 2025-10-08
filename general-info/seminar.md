@@ -5,5 +5,5 @@ Discuss **how** analysis yields the final result (uncertainties!).
 Slides: readable labels, units, references on relevant slides.
 
 ```{tip}
-Appendix → Templates expands this into a slide-by-slide checklist.
+Templates will be provided here once available. For now, follow the IMRaD outline in Writing.
 ```

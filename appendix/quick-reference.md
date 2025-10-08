@@ -6,6 +6,7 @@ Each section begins with a brief note on **why it matters**.
 
 ---
 
+(safety-card)=
 ## 1) Safety – Essential
 
 **Why this matters:**  
@@ -116,6 +117,7 @@ Your report and grade depend on what is documented here.
 
 ---
 
+(imrad-card)=
 ## 3) IMRaD – 1-Page Skeleton
 
 **Why this matters:**  
@@ -189,6 +191,7 @@ This is the habit of every professional experimentalist.
 
 ---
 
+(troubleshooting-card)=
 ## 7) Troubleshooting – Common Paths
 
 **Why this matters:**  
