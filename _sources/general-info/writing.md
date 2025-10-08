@@ -7,5 +7,5 @@
 Use the **Appendix** for fitting/uncertainty details.
 
 ```{tip}
-Appendix → Templates has an IMRaD outline and example figure checklist.
+Templates will be provided here once available. For now, follow the IMRaD outline in Writing.
 ```
