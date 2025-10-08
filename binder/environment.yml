@@ -1,0 +1,13 @@
+name: advlab-handbook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - scipy
+  - pip
+  - pip:
+      - jupyter-book
+      - sphinxcontrib-mermaid
