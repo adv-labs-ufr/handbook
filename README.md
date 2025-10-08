@@ -14,7 +14,7 @@ The Advanced Lab Handbook provides openly accessible learning materials for the 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/UniFreiburg-Physics/advanced-lab-handbook.git
+   git clone https://github.com/adv-labs-ufr/handbook.git
    cd advanced-lab-handbook
    ```
 2. **Create a virtual environment (optional but recommended)**
