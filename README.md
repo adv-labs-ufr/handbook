@@ -59,9 +59,11 @@ Click the Binder badge at the top of this README or open the [Gaussian fit tutor
 3. Run `jupyter-book build .` to ensure the site compiles without warnings or errors.
 4. Open a pull request describing your changes. Remember to include data files or notebooks necessary to reproduce results.
 
-## License
+## 📄 License
 
-- **Text and figures**: Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
-- **Code examples and scripts**: Licensed under the [MIT License](./LICENSE).
+The Advanced Lab Handbook uses a dual-license model to balance open educational sharing with flexible reuse:
 
-By contributing, you agree that your submissions will be distributed under these terms.
+- **Text, figures, and explanatory materials** are released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), allowing sharing and adaptation with attribution.
+- **Code examples and Jupyter Notebooks** are distributed under the [MIT License](LICENSE), enabling broad reuse and modification.
+
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
