@@ -1,0 +1,29 @@
+title: Advanced Lab Handbook – General Information
+author: Physikalisches Institut, Universität Freiburg
+only_build_toc_files: true
+
+execute:
+  execute_notebooks: "off"   # keep CI fast; students run examples via Binder if needed
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - colon_fence
+    - deflist
+    - tasklist
+
+html:
+  favicon: _static/favicon.svg
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+  extra_footer: |
+    <p>© University of Freiburg – Advanced Laboratory Classes. Text/figures: CC BY 4.0. Code/notebooks: MIT.</p>
+repository:
+  url: https://github.com/physik-freiburg/advanced-lab-handbook
+  branch: main
+
+launch_buttons:
+  binderhub_url: https://mybinder.org
+  notebook_interface: classic

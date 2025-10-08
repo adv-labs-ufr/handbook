@@ -1,0 +1,12 @@
+format: jb-book
+root: intro
+
+chapters:
+  - file: general-guidelines/how-to-use
+  - file: general-guidelines/preparation
+  - file: general-guidelines/safety
+  - file: general-guidelines/scientific-writing
+  - file: general-guidelines/data-analysis-uncertainty
+  - file: general-guidelines/report-template
+  - file: general-guidelines/seminar-checklist
+  - file: general-guidelines/ilias-and-submission
