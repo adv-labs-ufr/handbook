@@ -1,8 +1,6 @@
 # Quick Reference Cards
+Short checklists for on-site use.
 
-Short, printable checklists for on-site use.
-
-(safety-card)=
 ## Safety
 - Always wear eye protection when lasers are active.  
 - Know your experiment’s emergency shut-off.  
@@ -10,6 +8,7 @@ Short, printable checklists for on-site use.
 
 (imrad-card)=
 ## IMRaD Report Skeleton
+
 - **Introduction** – Aim & context (½ page)  
 - **Methods** – Setup, formulas, parameters (1–2 pages)  
 - **Results** – Plots + uncertainties (2–3 pages)  
