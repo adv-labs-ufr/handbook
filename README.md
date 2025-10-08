@@ -35,7 +35,7 @@ advanced-lab-handbook/
 ├── _config.yml              # Global Jupyter Book configuration
 ├── _toc.yml                 # Table of contents defining the book structure
 ├── general-guidelines/      # Shared lab policies and preparation resources
-├── experiments/raman/       # Example experiment folder (Raman spectroscopy)
+├── experiments              # Experiment folder (Notes on all individual labs)
 ├── tutorials/               # Interactive notebooks and analysis walkthroughs
 ├── binder/                  # Binder configuration (requirements + postBuild)
 └── .github/workflows/       # Continuous integration for automated book builds
