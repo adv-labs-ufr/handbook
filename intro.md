@@ -30,10 +30,11 @@ graph LR
 ## 🧩 Quick References
 
 You can access concise reference cards any time:
-- [Safety Checklist](appendix/quick-reference)
-- [IMRaD Report Template](appendix/quick-reference)
+- {ref}`Safety Checklist <safety-card>`
+- {ref}`IMRaD Report Template <imrad-card>`
 - [Uncertainty & Data Analysis](appendix/data-analysis/uncertainty)
-- [Equipment Troubleshooting](appendix/quick-reference)
+- {ref}`Equipment Troubleshooting <troubleshooting-card>`
+
 
 ---
 

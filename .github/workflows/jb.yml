@@ -24,8 +24,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install Jupyter Book
-        run: pip install -U jupyter-book
+      - name: Install documentation dependencies
+        run: pip install -U jupyter-book sphinxcontrib-mermaid
       - name: Build book
         run: jupyter-book build .
       - name: Deploy to gh-pages
