@@ -19,7 +19,8 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   extra_footer: |
-    <p>© University of Freiburg – Advanced Laboratory Classes. Text/figures: CC BY 4.0. Code/notebooks: MIT.</p>
+    <p>© University of Freiburg – Advanced Lab. Text/figures: CC BY 4.0 · Code: MIT.</p>
+
 repository:
   url: https://github.com/physik-freiburg/advanced-lab-handbook
   branch: main
