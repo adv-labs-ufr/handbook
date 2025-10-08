@@ -408,9 +408,23 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#safety">Safety</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imrad-report-skeleton">IMRaD Report Skeleton</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#common-troubleshooting">Common Troubleshooting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-essential">1) Safety – Essential</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-safety">General Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#laser-safety">Laser Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#radiation-safety">Radiation Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#electrical-high-voltage-safety">Electrical &amp; High-Voltage Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vacuum-and-cryogenic-safety">Vacuum and Cryogenic Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#confirmation-documentation">Confirmation &amp; Documentation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lab-notes-minimal-template">2) Lab Notes – Minimal Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imrad-1-page-skeleton">3) IMRaD – 1-Page Skeleton</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plotting-standards">4) Plotting Standards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-fast-checklist">5) Uncertainty – Fast Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instrument-quick-checks">6) Instrument Quick Checks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting-common-paths">7) Troubleshooting – Common Paths</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#emergency-steps">8) Emergency Steps</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submission-routing-always">9) Submission Routing (Always)</a></li>
 </ul>
             </nav>
         </div>
@@ -424,30 +438,241 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="quick-reference-cards">
 <h1>Quick Reference Cards<a class="headerlink" href="#quick-reference-cards" title="Link to this heading">#</a></h1>
-<p>Short checklists for on-site use.</p>
-<section id="safety">
-<h2>Safety<a class="headerlink" href="#safety" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Always wear eye protection when lasers are active.</p></li>
-<li><p>Know your experiment’s emergency shut-off.</p></li>
-<li><p>Never work alone after hours.</p></li>
+<p>Short, printable checklists for on-site use.<br />
+Keep this page open during lab work or print it for your folder.<br />
+Each section begins with a brief note on <strong>why it matters</strong>.</p>
+<hr class="docutils" />
+<section id="safety-essential">
+<h2>1) Safety – Essential<a class="headerlink" href="#safety-essential" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Safety is the foundation of professional experimental physics.<br />
+It protects you, your colleagues, and the integrity of the equipment.<br />
+Respecting safety procedures ensures continuous access to laboratory resources and legal compliance.</p>
+<hr class="docutils" />
+<section id="general-safety">
+<h3>General Safety<a class="headerlink" href="#general-safety" title="Link to this heading">#</a></h3>
+<p><strong>Why this matters:</strong>
+General procedures are your first line of defence against accidents and protect the wider lab community.
+Shared spaces stay safe and efficient only when everyone follows the same baseline rules.
+Completing formal training ensures you understand expectations before touching equipment.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Know the locations of emergency exits, extinguishers, and the first aid kit.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Do not work alone after hours; approved working hours: <strong>09:00–17:30</strong>.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Keep lab areas tidy; no food or drinks in lab rooms.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Report all incidents, spills, or unsafe conditions to your tutor immediately.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Read and sign all relevant safety instructions before your first experiment.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>General safety training completed on <a class="reference external" href="https://ilias.uni-freiburg.de/goto.php/crs/4019573">ILIAS</a></strong> before day one in the lab.</p></li>
 </ul>
 </section>
-<section id="imrad-report-skeleton">
-<span id="imrad-card"></span><h2>IMRaD Report Skeleton<a class="headerlink" href="#imrad-report-skeleton" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><strong>Introduction</strong> – Aim &amp; context (½ page)</p></li>
-<li><p><strong>Methods</strong> – Setup, formulas, parameters (1–2 pages)</p></li>
-<li><p><strong>Results</strong> – Plots + uncertainties (2–3 pages)</p></li>
-<li><p><strong>Discussion</strong> – Interpretation &amp; improvements (1 page)</p></li>
+<hr class="docutils" />
+<section id="laser-safety">
+<h3>Laser Safety<a class="headerlink" href="#laser-safety" title="Link to this heading">#</a></h3>
+<p><strong>Why this matters:</strong><br />
+Lasers can cause permanent eye or skin injury and invisible hazards due to infrared or ultraviolet radiation.<br />
+Following proper laser-safety rules protects you and everyone sharing the lab.<br />
+Even low-power beams can be dangerous when misaligned or unmonitored.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Laser safety training completed on <a class="reference external" href="https://ilias.uni-freiburg.de/goto.php/crs/4019573">ILIAS</a></strong> before any optical experiment.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Eye protection worn when Class 3B or 4 lasers are active; correct wavelength range verified.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Beam paths clearly marked; no stray reflections toward eye level.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Optical tables free of unnecessary optics; unused beams dumped securely.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Shutters and interlocks tested before activation; never bypass safety circuits.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Reflective objects (watches, jewelry, tools) removed near active setups.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Power levels, filters, and alignment procedures logged in lab notes.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Never align a laser “by eye” — use cards, viewers, or low-power alignment beams.</p></li>
 </ul>
 </section>
-<section id="common-troubleshooting">
-<span id="troubleshooting-card"></span><h2>Common Troubleshooting<a class="headerlink" href="#common-troubleshooting" title="Link to this heading">#</a></h2>
+<hr class="docutils" />
+<section id="radiation-safety">
+<h3>Radiation Safety<a class="headerlink" href="#radiation-safety" title="Link to this heading">#</a></h3>
+<p><strong>Why this matters:</strong><br />
+Handling radioactive sources requires heightened awareness and adherence to legal protocols.<br />
+Radiation protection safeguards not only you but all future users of the facility.<br />
+Training and strict adherence to procedures are mandatory under German radiation law.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Radiation protection training completed on <a class="reference external" href="https://ilias.uni-freiburg.de/goto.php/crs/4019573">ILIAS</a></strong> before working with sources.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Only trained and authorized persons may handle or move radioactive sources.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Dosimeter (if required) worn visibly and returned after the experiment.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Sources remain in shielded containers when not in use; log all transfers.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> No food, drinks, or personal items in radiation areas.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Hands washed after any source handling.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Any loss, irregularity, or suspected contamination reported immediately to the tutor and safety officer.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="electrical-high-voltage-safety">
+<h3>Electrical &amp; High-Voltage Safety<a class="headerlink" href="#electrical-high-voltage-safety" title="Link to this heading">#</a></h3>
+<p><strong>Why this matters:</strong><br />
+Most laboratory injuries come from avoidable electrical mistakes.<br />
+Understanding current paths and isolation prevents shocks, damage, and downtime.<br />
+Proper grounding and awareness keep both you and your setup safe.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Check cables and connectors for damage before use.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Never touch a circuit when powered unless explicitly designed for low voltage.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ground all measurement devices consistently; avoid ground loops.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Discharge capacitors before adjusting circuits.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Never override safety interlocks on HV supplies.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Verify correct polarity and limit settings before enabling output.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="vacuum-and-cryogenic-safety">
+<h3>Vacuum and Cryogenic Safety<a class="headerlink" href="#vacuum-and-cryogenic-safety" title="Link to this heading">#</a></h3>
+<p><strong>Why this matters:</strong><br />
+Vacuum and cryogenic systems involve implosion, asphyxiation, and frostbite hazards.<br />
+These systems often store large energies or cold liquids invisible to the eye.<br />
+Following procedures prevents accidents and protects sensitive instrumentation.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ensure all glass parts are shielded or rated for vacuum.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Vent systems slowly; avoid rapid pressure changes.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Do not expose cryogenic liquids to air (oxygen condensation risk).</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Wear cryo gloves and face protection when handling cold components.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Check pump oil levels and trap conditions before use.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="confirmation-documentation">
+<h3>Confirmation &amp; Documentation<a class="headerlink" href="#confirmation-documentation" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><strong>No signal?</strong> → Check power, alignment, detector bias.</p></li>
-<li><p><strong>Noise?</strong> → Verify grounding/shielding, signal cable, averaging.</p></li>
-<li><p><strong>Fit not converging?</strong> → Check data range, initial guesses, units.</p></li>
+<li><p>Completion of <strong>general, laser, and radiation safety training</strong> on <strong><a class="reference external" href="https://ilias.uni-freiburg.de/goto.php/crs/4019573">ILIAS</a></strong> is mandatory for lab participation.</p></li>
+<li><p>Tutors verify training completion before granting experiment access.</p></li>
+<li><p>Record your training completion in your <strong>lab notes</strong> on day 1.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="lab-notes-minimal-template">
+<h2>2) Lab Notes – Minimal Template<a class="headerlink" href="#lab-notes-minimal-template" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+A good lab notebook is your memory and your protection.<br />
+It supports transparency, reproducibility, and intellectual honesty.<br />
+Your report and grade depend on what is documented here.</p>
+<ul class="simple">
+<li><p>Header: <strong>Title · Names · Date · Time</strong></p></li>
+<li><p><strong>Setup sketch</strong> with labels and serial numbers</p></li>
+<li><p><strong>Parameter log</strong> (voltages, gains, wavelengths, temperatures)</p></li>
+<li><p><strong>Actions</strong> in chronological order (what / why / result)</p></li>
+<li><p><strong>Raw data</strong> references (file names, timestamps, versions)</p></li>
+<li><p><strong>Quick plots</strong> with axis labels + units</p></li>
+<li><p><strong>Issues &amp; fixes</strong> (what changed, when, who)</p></li>
+<li><p>Sign at the end of each session; never delete entries, only annotate corrections</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="imrad-1-page-skeleton">
+<h2>3) IMRaD – 1-Page Skeleton<a class="headerlink" href="#imrad-1-page-skeleton" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Scientific structure helps you communicate findings efficiently.<br />
+Following IMRaD trains you for professional documentation and peer review.<br />
+Clarity is part of scientific quality.</p>
+<ul class="simple">
+<li><p><strong>Introduction (½ page):</strong> aim, context, key references</p></li>
+<li><p><strong>Methods (1–2 pages):</strong> setup, model/formulas, calibration steps</p></li>
+<li><p><strong>Results (2–3 pages):</strong> plots with uncertainties, fit tables, residuals</p></li>
+<li><p><strong>Discussion (1 page):</strong> main finding vs aim, limits, systematics, improvements</p></li>
+<li><p><strong>Appendix:</strong> lab notes, code listings, extended data</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="plotting-standards">
+<h2>4) Plotting Standards<a class="headerlink" href="#plotting-standards" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Plots are how physicists tell stories about data.<br />
+Good figures reveal insight; bad ones hide it.<br />
+Aim for reproducibility and readability at publication level.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Axes titled with <strong>quantity [unit]</strong></p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Uncertainty bars visible and defined</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Consistent scale and tick spacing</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Legend used only if necessary</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Indicate number of samples and averaging</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Residuals shown for all fits</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Save figures as vector (PDF/SVG)</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="uncertainty-fast-checklist">
+<h2>5) Uncertainty – Fast Checklist<a class="headerlink" href="#uncertainty-fast-checklist" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Quantifying uncertainty distinguishes science from anecdote.<br />
+Understanding error sources builds confidence in results.<br />
+A well-documented uncertainty analysis is a mark of scientific maturity.</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Identify <strong>statistical</strong> and <strong>systematic</strong> sources separately</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Never use deviation from literature as a systematic estimate</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Propagate via relevant formulas or resampling (bootstrap)</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Include calibration uncertainties in final result</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Comment on which source dominates and why</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="instrument-quick-checks">
+<h2>6) Instrument Quick Checks<a class="headerlink" href="#instrument-quick-checks" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Most measurement issues are mechanical or electronic misconfigurations.<br />
+Regular checks save you hours of troubleshooting.<br />
+This is the habit of every professional experimentalist.</p>
+<p><strong>Oscilloscope</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Probe attenuation (1×/10×) and bandwidth correct</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ground connection secure; trigger stable</p></li>
+</ul>
+<p><strong>Function Generator</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Output load (Hi-Z / 50 Ω) set correctly</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Amplitude and offset double-checked</p></li>
+</ul>
+<p><strong>Laser/Optics</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Power meter zeroed; ND filters logged</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Beam height fixed; unused beams dumped safely</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Alignment performed with low-power beam</p></li>
+</ul>
+<p><strong>Vacuum/Detectors</strong></p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Bias polarity correct; dark current recorded</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Connectors and feedthroughs clean and tight</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="troubleshooting-common-paths">
+<h2>7) Troubleshooting – Common Paths<a class="headerlink" href="#troubleshooting-common-paths" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Finding problems systematically teaches experimental reasoning.<br />
+Most “mysteries” are simple oversights.<br />
+Think like an engineer before changing parameters.</p>
+<ul class="simple">
+<li><p><strong>No signal:</strong> power, alignment, range, bias, lock status?</p></li>
+<li><p><strong>Too noisy:</strong> filters, grounding, light leaks, vibration?</p></li>
+<li><p><strong>Fit fails:</strong> wrong model, range, units, outliers?</p></li>
+<li><p><strong>Drift:</strong> warm-up time, temperature, or optical misalignment?</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="emergency-steps">
+<h2>8) Emergency Steps<a class="headerlink" href="#emergency-steps" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Knowing what to do under stress can save lives and equipment.<br />
+Safety training only helps if you recall it under pressure.<br />
+Act quickly but never alone.</p>
+<ol class="arabic simple">
+<li><p><strong>Stop</strong> the source (laser shutter, HV off, pump stop if safe)</p></li>
+<li><p><strong>Warn</strong> others; clear the area</p></li>
+<li><p><strong>Call</strong> emergency <strong>112</strong> (internal phones: 0–112)</p></li>
+<li><p><strong>Inform</strong> tutor and safety officer immediately</p></li>
+<li><p><strong>Document</strong> the event in your lab notes afterward</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="submission-routing-always">
+<h2>9) Submission Routing (Always)<a class="headerlink" href="#submission-routing-always" title="Link to this heading">#</a></h2>
+<p><strong>Why this matters:</strong><br />
+Correct submission channels guarantee your work is graded and archived properly.<br />
+This protects your results and the fairness of the course.<br />
+Never email reports unless explicitly instructed.</p>
+<ul class="simple">
+<li><p><strong>Handbook:</strong> general guidance, public resources</p></li>
+<li><p><strong>ILIAS:</strong> official schedules, safety/entrance quizzes, <strong>uploads</strong>, <strong>grading</strong></p></li>
 </ul>
 </section>
 </section>
@@ -516,9 +741,23 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#safety">Safety</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imrad-report-skeleton">IMRaD Report Skeleton</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#common-troubleshooting">Common Troubleshooting</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-essential">1) Safety – Essential</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-safety">General Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#laser-safety">Laser Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#radiation-safety">Radiation Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#electrical-high-voltage-safety">Electrical &amp; High-Voltage Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#vacuum-and-cryogenic-safety">Vacuum and Cryogenic Safety</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#confirmation-documentation">Confirmation &amp; Documentation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lab-notes-minimal-template">2) Lab Notes – Minimal Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imrad-1-page-skeleton">3) IMRaD – 1-Page Skeleton</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plotting-standards">4) Plotting Standards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-fast-checklist">5) Uncertainty – Fast Checklist</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instrument-quick-checks">6) Instrument Quick Checks</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting-common-paths">7) Troubleshooting – Common Paths</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#emergency-steps">8) Emergency Steps</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submission-routing-always">9) Submission Routing (Always)</a></li>
 </ul>
   </nav></div>
 
