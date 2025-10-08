@@ -20,6 +20,14 @@ parts:
   - caption: Appendix
     chapters:
       - file: appendix/data-analysis/overview
+      - file: appendix/data-analysis/gaussian-fit
+        title: Gaussian Fit Walkthrough
+        options:
+          hidden: true
+      - file: appendix/data-analysis/bootstrap-resampling
+        title: Bootstrap Resampling Demo
+        options:
+          hidden: true
       - file: appendix/data-analysis/uncertainty
       - file: appendix/library
       - file: appendix/quick-reference

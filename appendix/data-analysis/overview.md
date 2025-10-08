@@ -1,15 +1,19 @@
 # Data Analysis – Overview
 
-Use this appendix for detailed methods:
-- Uncertainty propagation (statistical vs systematic)
-- Model fitting (residuals, goodness-of-fit)
-- Background modeling (e.g., linear + Gaussian)
-- Bootstrap / resampling (when and why)
+Interactive examples are available for direct exploration on Binder.
 
-Main pages stay short; link here when depth is needed.
+---
 
-**Interactive resources:**
-- {download}`Gaussian fit walkthrough <gaussian-fit.ipynb>`
-- {download}`Bootstrap resampling demo <bootstrap.ipynb>`
+## Gaussian Fit Walkthrough
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=appendix/data-analysis/gaussian-fit.ipynb)
 
-See {doc}`/appendix/data-analysis/uncertainty` for deeper treatment of error analysis and {doc}`/appendix/quick-reference` for a concise checklist of key steps.
+A step-by-step example of fitting noisy Gaussian data using `scipy.optimize.curve_fit`.  
+Shows best-fit parameters, uncertainties, and residual plots.
+
+---
+
+## Bootstrap Resampling Demo
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=appendix/data-analysis/bootstrap-resampling.ipynb)
+
+A short demo of estimating uncertainty in a sample mean by bootstrap resampling.  
+Illustrates the concept of **statistical variation** and how uncertainty emerges from repeated sampling.
