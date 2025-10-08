@@ -70,9 +70,8 @@ All work in this lab follows the [Principles of Good Scientific Practice](https:
 ---
 
 ## 🆘 Emergency & Contact
-- Emergency: 112 (internal phones: 0-112)
-- Institute safety officer: (to be confirmed)
-- Course organizers: fp@physik.uni-freiburg.de
+- Emergency: 112 (works also from internal phones)
+- Course organizers: call (0761) 203-7645 or write to fp@physik.uni-freiburg.de
 
 ---
 
