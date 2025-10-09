@@ -40,8 +40,9 @@ Your data files should be structured as:
 
 ## 💻 Python Analysis
 
-Open the notebook:  
-👉 [`../02_Notebooks/ethanol_concentration_fit.ipynb`](../02_Notebooks/ethanol_concentration_fit.ipynb)
+### 💻 Open the interactive notebook (Binder):
+
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/ethanol_concentration_fit.ipynb)
 
 This notebook guides you through the complete analysis workflow:
 
