@@ -1,0 +1,1124 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Calibration Tutorial — Hg / Na (USB2000+) &#8212; Advanced Lab Handbook – General Information</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'experiments/fp1/raman/02_Notebooks/calibration_hg_na';</script>
+    <link rel="icon" href="../../../../_static/favicon.svg"/>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Raman Spectra Analysis — Tutorial Notebook" href="raman_spectra_analysis.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="README.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../intro.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Advanced Lab Handbook – General Information</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../../intro.html">
+                    Advanced Lab Handbook – Quick Guide
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">General Information</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../../general-info/prerequisites.html">Prerequisites for Successful Participation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general-info/preparation.html">Preparation (1-page)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general-info/safety.html">Safety (read &amp; comply)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general-info/lab-work.html">Lab Work (How to work in the room)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general-info/data-analysis-writing.html">Data Analysis &amp; Writing (1 page)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general-info/seminar.html">Seminar (if required for your course)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Experiments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../../README.html">Experiments Overview</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../../README.html">FP1 Experiments</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3 current active has-children"><a class="reference internal" href="../overview.html">Raman Spectroscopy – Advanced Physics Laboratory (FP1)</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../01_Experiment_Guide/index.html">Raman Spectroscopy – Experiment Guide</a></li>
+<li class="toctree-l4 current active"><a class="current reference internal" href="#">Calibration Tutorial — Hg / Na (USB2000+)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="raman_spectra_analysis.html">Raman Spectra Analysis — Tutorial Notebook</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../../mossbauer/overview.html">Mössbauer Spectroscopy — Overview</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../fp2/README.html">FP2 Experiments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../fp2/eit/overview.html">Electromagnetically Induced Transparency (EIT) — Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../fp2/optical-pumping/overview.html">Optical Pumping — Overview</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../../fp-edu/README.html">FP Edu Experiments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../fp-edu/special-telescope/overview.html">Special – Telescope Experiment — Overview</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/data-analysis/overview.html">Data Analysis – Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/data-analysis/gaussian-fit.html">Gaussian Fit Walkthrough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/data-analysis/bootstrap-resampling.html">Bootstrap Resampling Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/data-analysis/uncertainty.html">Uncertainty – Practical Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/library.html">Library (Books &amp; Key References)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/quick-reference.html">Quick Reference Cards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../appendix/references.html">References</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?urlpath=tree/experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/adv-labs-ufr/handbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/adv-labs-ufr/handbook/edit/main/experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/adv-labs-ufr/handbook/issues/new?title=Issue%20on%20page%20%2Fexperiments/fp1/raman/02_Notebooks/calibration_hg_na.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../../_sources/experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Calibration Tutorial — Hg / Na (USB2000+)</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">🎯 Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-data-synthetic">🧪 Example Data (Synthetic)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peak-detection">🔍 Peak Detection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peak-fitting-gaussian">🧰 Peak Fitting (Gaussian)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference-lines-matching">📏 Reference Lines &amp; Matching</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#calibration-fit-polynomial">🧮 Calibration Fit (Polynomial)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interpretation-calibration-residuals">📊 Interpretation: Calibration Residuals</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#what-to-look-for">🔎 What to look for</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-model-choice-discussion">📉 Uncertainty &amp; Model Choice (Discussion)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn-replace-with-real-data-todo">✅ Your Turn — Replace with Real Data (TODO)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#save-calibration-parameters">💾 Save Calibration Parameters</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#navigation">🔗 Navigation</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="calibration-tutorial-hg-na-usb2000">
+<h1>Calibration Tutorial — Hg / Na (USB2000+)<a class="headerlink" href="#calibration-tutorial-hg-na-usb2000" title="Link to this heading">#</a></h1>
+<p><strong>Belongs to:</strong> <code class="docutils literal notranslate"><span class="pre">01_Experiment_Guide/step2_calibration.md</span></code><br />
+<strong>Goal:</strong> Build a wavelength calibration for the Ocean Optics USB2000+ using <strong>Hg</strong> and <strong>Na</strong> emission lines.</p>
+<blockquote>
+<div><p>This notebook is a guided <em>tutorial</em>. It shows the workflow on <strong>synthetic example data</strong> and provides helper functions.<br />
+<strong>Your task</strong> is to replace the example data with your own measurements and complete the marked <strong>TODO</strong> cells.</p>
+</div></blockquote>
+<section id="learning-objectives">
+<h2>🎯 Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Load and visualize lamp spectra (CSV: wavelength [nm], intensity [counts])</p></li>
+<li><p>Detect and fit emission peaks (Gaussian)</p></li>
+<li><p>Select reference lines (Hg, Na) and map <strong>pixel → wavelength</strong> or verify <strong>wavelength axis</strong></p></li>
+<li><p>Fit a low-order polynomial calibration and inspect residuals</p></li>
+<li><p>Quantify calibration uncertainty and discuss polynomial order</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Setup</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.signal</span><span class="w"> </span><span class="kn">import</span> <span class="n">find_peaks</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.optimize</span><span class="w"> </span><span class="kn">import</span> <span class="n">curve_fit</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s2">&quot;figure.figsize&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s2">&quot;axes.grid&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Libraries loaded.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Libraries loaded.
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-data-synthetic">
+<h2>🧪 Example Data (Synthetic)<a class="headerlink" href="#example-data-synthetic" title="Link to this heading">#</a></h2>
+<p>We generate <strong>synthetic Hg and Na spectra</strong> with known line positions, sampling and noise.<br />
+Use this to practice the fits, then <strong>replace with your real CSVs</strong>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Synthetic spectra generation</span>
+<span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">default_rng</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">gaussian</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">A</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">B</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">A</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">mu</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span> <span class="o">+</span> <span class="n">B</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">make_spectrum</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">lines</span><span class="p">,</span> <span class="n">widths</span><span class="o">=</span><span class="mf">0.25</span><span class="p">,</span> <span class="n">baseline</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">10</span><span class="p">):</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">full_like</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">baseline</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">amp</span><span class="p">,</span> <span class="n">pos</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+        <span class="n">y</span> <span class="o">+=</span> <span class="n">gaussian</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">amp</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">widths</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">+=</span> <span class="n">rng</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">noise</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">wl</span><span class="o">.</span><span class="n">size</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">y</span>
+
+<span class="n">wl</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">380</span><span class="p">,</span> <span class="mi">650</span><span class="p">,</span> <span class="mi">2048</span><span class="p">)</span>
+
+<span class="n">hg_lines</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">1800</span><span class="p">,</span> <span class="mf">404.656</span><span class="p">),</span> <span class="p">(</span><span class="mi">2200</span><span class="p">,</span> <span class="mf">435.833</span><span class="p">),</span> <span class="p">(</span><span class="mi">2500</span><span class="p">,</span> <span class="mf">546.074</span><span class="p">),</span> <span class="p">(</span><span class="mi">1800</span><span class="p">,</span> <span class="mf">577.045</span><span class="p">),</span> <span class="p">(</span><span class="mi">1700</span><span class="p">,</span> <span class="mf">579.066</span><span class="p">)]</span>
+<span class="n">na_lines</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">3000</span><span class="p">,</span> <span class="mf">588.995</span><span class="p">),</span> <span class="p">(</span><span class="mi">2800</span><span class="p">,</span> <span class="mf">589.592</span><span class="p">)]</span>
+
+<span class="n">hg_spectrum</span> <span class="o">=</span> <span class="n">make_spectrum</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">hg_lines</span><span class="p">,</span> <span class="n">widths</span><span class="o">=</span><span class="mf">0.20</span><span class="p">,</span> <span class="n">baseline</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">12</span><span class="p">)</span>
+<span class="n">na_spectrum</span> <span class="o">=</span> <span class="n">make_spectrum</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">na_lines</span><span class="p">,</span> <span class="n">widths</span><span class="o">=</span><span class="mf">0.18</span><span class="p">,</span> <span class="n">baseline</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span> <span class="n">noise</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">hg_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">:</span> <span class="n">wl</span><span class="p">,</span> <span class="s2">&quot;intensity&quot;</span><span class="p">:</span> <span class="n">hg_spectrum</span><span class="p">})</span>
+<span class="n">na_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">:</span> <span class="n">wl</span><span class="p">,</span> <span class="s2">&quot;intensity&quot;</span><span class="p">:</span> <span class="n">na_spectrum</span><span class="p">})</span>
+
+<span class="c1"># Save example CSVs alongside repo structure</span>
+<span class="n">data_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;../05_Data/calibration&quot;</span><span class="p">)</span>
+<span class="n">data_dir</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">hg_path</span> <span class="o">=</span> <span class="n">data_dir</span> <span class="o">/</span> <span class="s2">&quot;Hg_reference_example.csv&quot;</span>
+<span class="n">na_path</span> <span class="o">=</span> <span class="n">data_dir</span> <span class="o">/</span> <span class="s2">&quot;Na_reference_example.csv&quot;</span>
+<span class="n">hg_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">hg_path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">na_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">na_path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Saved:&quot;</span><span class="p">,</span> <span class="n">hg_path</span><span class="o">.</span><span class="n">resolve</span><span class="p">(),</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">       &quot;</span><span class="p">,</span> <span class="n">na_path</span><span class="o">.</span><span class="n">resolve</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Saved: C:\Users\Lucas\05_Data\calibration\Hg_reference_example.csv 
+        C:\Users\Lucas\05_Data\calibration\Na_reference_example.csv
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Quick look plots</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">],</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Wavelength (nm)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Intensity (counts)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Hg lamp — synthetic example&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">],</span> <span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Wavelength (nm)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Intensity (counts)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Na lamp — synthetic example&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../../../_images/86a51b55765bd83682b1926dc1239d369f894ce9159153a73e6cb2737c0ff4b8.png" src="../../../../_images/86a51b55765bd83682b1926dc1239d369f894ce9159153a73e6cb2737c0ff4b8.png" />
+<img alt="../../../../_images/45523ed2a4d073faa46a5321359b8623251eb0c2b0fe099a3277b5880d794a06.png" src="../../../../_images/45523ed2a4d073faa46a5321359b8623251eb0c2b0fe099a3277b5880d794a06.png" />
+</div>
+</div>
+</section>
+<section id="peak-detection">
+<h2>🔍 Peak Detection<a class="headerlink" href="#peak-detection" title="Link to this heading">#</a></h2>
+<p>Use <code class="docutils literal notranslate"><span class="pre">scipy.signal.find_peaks</span></code>. Adjust <code class="docutils literal notranslate"><span class="pre">prominence</span></code>/<code class="docutils literal notranslate"><span class="pre">distance</span></code> for your data.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">detect_peaks</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">prominence</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">distance</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">idx</span><span class="p">,</span> <span class="n">props</span> <span class="o">=</span> <span class="n">find_peaks</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">prominence</span><span class="o">=</span><span class="n">prominence</span><span class="p">,</span> <span class="n">distance</span><span class="o">=</span><span class="n">distance</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">idx</span><span class="p">,</span> <span class="n">props</span>
+
+<span class="n">hg_idx</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">detect_peaks</span><span class="p">(</span><span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">prominence</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">distance</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+<span class="n">na_idx</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">detect_peaks</span><span class="p">(</span><span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">prominence</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">distance</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">],</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">hg_idx</span><span class="p">],</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">hg_idx</span><span class="p">],</span> <span class="s2">&quot;x&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Hg peaks (detected)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Wavelength (nm)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Intensity&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">],</span> <span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">])</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">na_idx</span><span class="p">],</span> <span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">na_idx</span><span class="p">],</span> <span class="s2">&quot;x&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Na peaks (detected)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Wavelength (nm)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Intensity&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hg peak candidates:&quot;</span><span class="p">,</span> <span class="n">hg_df</span><span class="p">[</span><span class="s1">&#39;wavelength_nm&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">hg_idx</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Na peak candidates:&quot;</span><span class="p">,</span> <span class="n">na_df</span><span class="p">[</span><span class="s1">&#39;wavelength_nm&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">na_idx</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../../../_images/7b2ae67b3ea4f91df71d36b98cee7b29fbc750daec0c37ec2bb4d18b7ff9820e.png" src="../../../../_images/7b2ae67b3ea4f91df71d36b98cee7b29fbc750daec0c37ec2bb4d18b7ff9820e.png" />
+<img alt="../../../../_images/bcc72dc175ba4249b951b3eeefba0b72fdbe99d94797bbd368fca759a64913db.png" src="../../../../_images/bcc72dc175ba4249b951b3eeefba0b72fdbe99d94797bbd368fca759a64913db.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hg peak candidates: [404.66536395 435.79384465 546.06253053 577.05911089 579.03761602]
+Na peak candidates: [589.06204201]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="peak-fitting-gaussian">
+<h2>🧰 Peak Fitting (Gaussian)<a class="headerlink" href="#peak-fitting-gaussian" title="Link to this heading">#</a></h2>
+<p>Fit a <strong>Gaussian + baseline</strong> to a small window around each peak.</p>
+<blockquote>
+<div><p><strong>TODO:</strong> Decide which peaks to keep/exclude (blends, low SNR).</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># ── Drop-in replacement: Peak-Fit mit wählbarem Untergrund + glatter Plot ──</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.optimize</span><span class="w"> </span><span class="kn">import</span> <span class="n">curve_fit</span>
+
+<span class="c1"># Modelle</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">gauss_const</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">A</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">B</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">A</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mu</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span> <span class="o">+</span> <span class="n">B</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">gauss_linear</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">A</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">):</span>
+    <span class="c1"># lineare Basis um mu zentriert (numerisch stabiler)</span>
+    <span class="k">return</span> <span class="n">A</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mu</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span> <span class="o">+</span> <span class="p">(</span><span class="n">B</span> <span class="o">+</span> <span class="n">C</span><span class="o">*</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mu</span><span class="p">))</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">_init_linear_baseline</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+    <span class="c1"># einfache Startwerte für lineare Basis</span>
+    <span class="c1"># fit auf die Randpunkte (untere 20% + obere 20% des Fensters)</span>
+    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">n</span> <span class="o">//</span> <span class="mi">5</span><span class="p">)</span>
+    <span class="n">xx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">([</span><span class="n">x</span><span class="p">[:</span><span class="n">k</span><span class="p">],</span> <span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="n">k</span><span class="p">:]])</span>
+    <span class="n">yy</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">([</span><span class="n">z</span><span class="p">[:</span><span class="n">k</span><span class="p">],</span> <span class="n">z</span><span class="p">[</span><span class="o">-</span><span class="n">k</span><span class="p">:]])</span>
+    <span class="n">p</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">yy</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>  <span class="c1"># y = p[0]*x + p[1]</span>
+    <span class="c1"># in Parameterform B + C*(x - mu) umrechnen (mu kommt später)</span>
+    <span class="k">return</span> <span class="n">p</span>  <span class="c1"># (slope, intercept)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">fit_peak</span><span class="p">(</span><span class="n">wl</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">center</span><span class="p">,</span> <span class="n">window</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">baseline</span><span class="o">=</span><span class="s2">&quot;const&quot;</span><span class="p">,</span> <span class="n">xfit_points</span><span class="o">=</span><span class="mi">400</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    baseline: &#39;const&#39; oder &#39;linear&#39;</span>
+<span class="sd">    window:   +/- nm um den Peak</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">mask</span> <span class="o">=</span> <span class="p">(</span><span class="n">wl</span> <span class="o">&gt;</span> <span class="n">center</span> <span class="o">-</span> <span class="n">window</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">wl</span> <span class="o">&lt;</span> <span class="n">center</span> <span class="o">+</span> <span class="n">window</span><span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="n">wl</span><span class="p">[</span><span class="n">mask</span><span class="p">];</span> <span class="n">z</span> <span class="o">=</span> <span class="n">y</span><span class="p">[</span><span class="n">mask</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">x</span><span class="o">.</span><span class="n">size</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">baseline</span>
+
+    <span class="c1"># Startwerte</span>
+    <span class="n">A0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">z</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">z</span><span class="p">))</span>
+    <span class="n">mu0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">z</span><span class="p">)])</span>
+    <span class="n">sigma0</span> <span class="o">=</span> <span class="mf">0.20</span>  <span class="c1"># grober Startwert (nm)</span>
+
+    <span class="k">if</span> <span class="n">baseline</span> <span class="o">==</span> <span class="s2">&quot;linear&quot;</span><span class="p">:</span>
+        <span class="n">slope</span><span class="p">,</span> <span class="n">intercept</span> <span class="o">=</span> <span class="n">_init_linear_baseline</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>   <span class="c1"># y ≈ slope*x + intercept</span>
+        <span class="c1"># in B + C*(x - mu) umformen:  slope*x + intercept = (intercept + slope*mu) + slope*(x - mu)</span>
+        <span class="n">B0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">intercept</span> <span class="o">+</span> <span class="n">slope</span><span class="o">*</span><span class="n">mu0</span><span class="p">)</span>
+        <span class="n">C0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">slope</span><span class="p">)</span>
+        <span class="n">p0</span> <span class="o">=</span> <span class="p">[</span><span class="n">A0</span><span class="p">,</span> <span class="n">mu0</span><span class="p">,</span> <span class="n">sigma0</span><span class="p">,</span> <span class="n">B0</span><span class="p">,</span> <span class="n">C0</span><span class="p">]</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">gauss_linear</span>
+        <span class="n">bounds</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">B0</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">median</span><span class="p">(</span><span class="n">z</span><span class="p">))</span>
+        <span class="n">p0</span> <span class="o">=</span> <span class="p">[</span><span class="n">A0</span><span class="p">,</span> <span class="n">mu0</span><span class="p">,</span> <span class="n">sigma0</span><span class="p">,</span> <span class="n">B0</span><span class="p">]</span>
+        <span class="n">model</span> <span class="o">=</span> <span class="n">gauss_const</span>
+        <span class="n">bounds</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span>
+
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">popt</span><span class="p">,</span> <span class="n">pcov</span> <span class="o">=</span> <span class="n">curve_fit</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">p0</span><span class="o">=</span><span class="n">p0</span><span class="p">,</span> <span class="n">maxfev</span><span class="o">=</span><span class="mi">20000</span><span class="p">,</span> <span class="n">bounds</span><span class="o">=</span><span class="n">bounds</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">baseline</span>
+
+    <span class="c1"># glattes x-Raster zum Plotten</span>
+    <span class="n">xfit</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">x</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="n">xfit_points</span><span class="p">)</span>
+    <span class="n">yfit</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">xfit</span><span class="p">,</span> <span class="o">*</span><span class="n">popt</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">popt</span><span class="p">,</span> <span class="n">pcov</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">xfit</span><span class="p">,</span> <span class="n">yfit</span><span class="p">,</span> <span class="n">baseline</span>
+
+<span class="c1"># ── Fits neu berechnen ──</span>
+<span class="n">hg_fits</span> <span class="o">=</span> <span class="p">[</span><span class="n">fit_peak</span><span class="p">(</span><span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span>
+                    <span class="n">window</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">baseline</span><span class="o">=</span><span class="s2">&quot;const&quot;</span><span class="p">)</span>
+           <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">hg_idx</span><span class="p">]]</span>
+
+<span class="c1"># Na hat oft schrägen Untergrund → baseline=&#39;linear&#39; und etwas engeres Fenster</span>
+<span class="n">na_fits</span> <span class="o">=</span> <span class="p">[</span><span class="n">fit_peak</span><span class="p">(</span><span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;intensity&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span>
+                    <span class="n">window</span><span class="o">=</span><span class="mf">0.6</span><span class="p">,</span> <span class="n">baseline</span><span class="o">=</span><span class="s2">&quot;linear&quot;</span><span class="p">)</span>
+           <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">na_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="n">na_idx</span><span class="p">]]</span>
+
+<span class="c1"># ── Vorschau: erste Fits geplottet (glatt) ──</span>
+<span class="k">for</span> <span class="n">label</span><span class="p">,</span> <span class="n">fits</span> <span class="ow">in</span> <span class="p">[(</span><span class="s2">&quot;Hg&quot;</span><span class="p">,</span> <span class="n">hg_fits</span><span class="p">),</span> <span class="p">(</span><span class="s2">&quot;Na&quot;</span><span class="p">,</span> <span class="n">na_fits</span><span class="p">)]:</span>
+    <span class="n">shown</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">popt</span><span class="p">,</span> <span class="n">pcov</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">xfit</span><span class="p">,</span> <span class="n">yfit</span><span class="p">,</span> <span class="n">base</span><span class="p">)</span> <span class="ow">in</span> <span class="n">fits</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">popt</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span> 
+            <span class="k">continue</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;data&quot;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xfit</span><span class="p">,</span> <span class="n">yfit</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;fit&quot;</span><span class="p">)</span>
+        <span class="n">mu</span> <span class="o">=</span> <span class="n">popt</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">label</span><span class="si">}</span><span class="s2"> peak fit — μ = </span><span class="si">{</span><span class="n">mu</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> nm  | baseline=</span><span class="si">{</span><span class="n">base</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Wavelength (nm)&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Intensity&quot;</span><span class="p">);</span> <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span> <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+        <span class="n">shown</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">shown</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="k">break</span>
+
+<span class="c1"># Zentren einsammeln</span>
+<span class="n">hg_centers</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">hg_fits</span> <span class="k">if</span> <span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+<span class="n">na_centers</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">na_fits</span> <span class="k">if</span> <span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Fitted centers Hg:&quot;</span><span class="p">,</span> <span class="n">hg_centers</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Fitted centers Na:&quot;</span><span class="p">,</span> <span class="n">na_centers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../../../../_images/e7f6081e8c5f8c220227180f78fac9f8e0a33eb02bd6e9bcd2de54f5d80c5912.png" src="../../../../_images/e7f6081e8c5f8c220227180f78fac9f8e0a33eb02bd6e9bcd2de54f5d80c5912.png" />
+<img alt="../../../../_images/07bb7ff151d9d1b0d2e75168e73c09b7813ebaa83c11f1d4fd0ab320439dfd38.png" src="../../../../_images/07bb7ff151d9d1b0d2e75168e73c09b7813ebaa83c11f1d4fd0ab320439dfd38.png" />
+<img alt="../../../../_images/595ec33bf48b214e1381e796932fa383d2c1847012f159f66146a16480d7867a.png" src="../../../../_images/595ec33bf48b214e1381e796932fa383d2c1847012f159f66146a16480d7867a.png" />
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Fitted centers Hg: [404.65534213832973, 435.8336895302457, 546.0737837260708, 577.045222677088, 579.0656778227221]
+Fitted centers Na: [588.9568054903199]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="reference-lines-matching">
+<h2>📏 Reference Lines &amp; Matching<a class="headerlink" href="#reference-lines-matching" title="Link to this heading">#</a></h2>
+<p>Select reference wavelengths from literature (approximate values below).</p>
+<blockquote>
+<div><p><strong>TODO:</strong> Confirm list and justify exclusions of problematic lines.</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">hg_ref</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">404.656</span><span class="p">,</span> <span class="mf">435.833</span><span class="p">,</span> <span class="mf">546.074</span><span class="p">,</span> <span class="mf">577.045</span><span class="p">,</span> <span class="mf">579.066</span><span class="p">])</span>
+<span class="n">na_ref</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mf">588.995</span><span class="p">,</span> <span class="mf">589.592</span><span class="p">])</span>
+
+<span class="n">measured</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">hg_centers</span> <span class="o">+</span> <span class="n">na_centers</span><span class="p">))</span>
+<span class="n">reference</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">hg_ref</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span> <span class="o">+</span> <span class="n">na_ref</span><span class="o">.</span><span class="n">tolist</span><span class="p">()))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Measured centers (nm):&quot;</span><span class="p">,</span> <span class="n">measured</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Reference lines (nm):&quot;</span><span class="p">,</span> <span class="n">reference</span><span class="p">)</span>
+
+<span class="c1"># TODO: If different lengths, manually select matching peaks:</span>
+<span class="c1"># measured = measured[[...]]; reference = reference[[...]]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Measured centers (nm): [404.65534214 435.83368953 546.07378373 577.04522268 579.06567782
+ 588.95680549]
+Reference lines (nm): [404.656 435.833 546.074 577.045 579.066 588.995 589.592]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="calibration-fit-polynomial">
+<h2>🧮 Calibration Fit (Polynomial)<a class="headerlink" href="#calibration-fit-polynomial" title="Link to this heading">#</a></h2>
+<p>Map <strong>pixel → wavelength</strong> using a low-order polynomial (usually 2 or 3).<br />
+Because synthetic data already have a wavelength axis, we simulate a pixel axis for demonstration.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># ── Robust pairing gemessener Peaks ↔ Referenzlinien + Polyfit ──</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.optimize</span><span class="w"> </span><span class="kn">import</span> <span class="n">linear_sum_assignment</span>
+
+<span class="c1"># 1) Gemessene Zentren (aus deinen Fits) und Referenzen sortieren</span>
+<span class="n">measured_all</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">hg_centers</span> <span class="o">+</span> <span class="n">na_centers</span><span class="p">))</span>      <span class="c1"># aus deinen Fits</span>
+<span class="n">reference_all</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">sorted</span><span class="p">([</span><span class="mf">404.656</span><span class="p">,</span> <span class="mf">435.833</span><span class="p">,</span> <span class="mf">546.074</span><span class="p">,</span> <span class="mf">577.045</span><span class="p">,</span> <span class="mf">579.066</span><span class="p">,</span> <span class="mf">588.995</span><span class="p">,</span> <span class="mf">589.592</span><span class="p">]))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Detected peaks: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">measured_all</span><span class="p">)</span><span class="si">}</span><span class="s2"> | Reference lines: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">reference_all</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># 2) Optimales Matching (min |Delta lambda|) + Toleranzfilter</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">pair_lines</span><span class="p">(</span><span class="n">measured</span><span class="p">,</span> <span class="n">reference</span><span class="p">,</span> <span class="n">tol_nm</span><span class="o">=</span><span class="mf">0.6</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">measured</span><span class="o">.</span><span class="n">size</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">reference</span><span class="o">.</span><span class="n">size</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([]),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([])</span>
+
+    <span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">measured</span><span class="p">[:,</span> <span class="kc">None</span><span class="p">]</span> <span class="o">-</span> <span class="n">reference</span><span class="p">[</span><span class="kc">None</span><span class="p">,</span> <span class="p">:])</span>  <span class="c1"># Kostenmatrix</span>
+    <span class="n">row_ind</span><span class="p">,</span> <span class="n">col_ind</span> <span class="o">=</span> <span class="n">linear_sum_assignment</span><span class="p">(</span><span class="n">C</span><span class="p">)</span>         <span class="c1"># ungarische Zuordnung</span>
+    <span class="n">diffs</span> <span class="o">=</span> <span class="n">C</span><span class="p">[</span><span class="n">row_ind</span><span class="p">,</span> <span class="n">col_ind</span><span class="p">]</span>
+
+    <span class="c1"># Nur Paare übernehmen, die innerhalb der Toleranz liegen</span>
+    <span class="n">keep</span> <span class="o">=</span> <span class="n">diffs</span> <span class="o">&lt;=</span> <span class="n">tol_nm</span>
+    <span class="n">meas_sel</span> <span class="o">=</span> <span class="n">measured</span><span class="p">[</span><span class="n">row_ind</span><span class="p">[</span><span class="n">keep</span><span class="p">]]</span>
+    <span class="n">ref_sel</span>  <span class="o">=</span> <span class="n">reference</span><span class="p">[</span><span class="n">col_ind</span><span class="p">[</span><span class="n">keep</span><span class="p">]]</span>
+    <span class="n">diffs_sel</span> <span class="o">=</span> <span class="n">diffs</span><span class="p">[</span><span class="n">keep</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">meas_sel</span><span class="p">,</span> <span class="n">ref_sel</span><span class="p">,</span> <span class="n">diffs_sel</span>
+
+<span class="n">meas_sel</span><span class="p">,</span> <span class="n">ref_sel</span><span class="p">,</span> <span class="n">diffs_sel</span> <span class="o">=</span> <span class="n">pair_lines</span><span class="p">(</span><span class="n">measured_all</span><span class="p">,</span> <span class="n">reference_all</span><span class="p">,</span> <span class="n">tol_nm</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Matched pairs: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">meas_sel</span><span class="p">)</span><span class="si">}</span><span class="s2"> (tol=0.6 nm)&quot;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">m</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">meas_sel</span><span class="p">,</span> <span class="n">ref_sel</span><span class="p">,</span> <span class="n">diffs_sel</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;  meas </span><span class="si">{</span><span class="n">m</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> nm ↔ ref </span><span class="si">{</span><span class="n">r</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> nm  (Δ=</span><span class="si">{</span><span class="n">d</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2"> nm)&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">meas_sel</span><span class="o">.</span><span class="n">size</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Zu wenige gematchte Linien für eine stabile Kalibration. &quot;</span>
+                     <span class="s2">&quot;Toleranz prüfen, Peaks/Referenzen anpassen oder zusätzliche Linien verwenden.&quot;</span><span class="p">)</span>
+
+<span class="c1"># 3) Pixelpositionen zu den gemessenen Wellenlängen bestimmen</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">nearest_pixel_for_wavelength</span><span class="p">(</span><span class="n">wl_axis</span><span class="p">,</span> <span class="n">centers</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">argmin</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">wl_axis</span> <span class="o">-</span> <span class="n">c</span><span class="p">))</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">centers</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="n">wl_axis</span> <span class="o">=</span> <span class="n">hg_df</span><span class="p">[</span><span class="s2">&quot;wavelength_nm&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>  <span class="c1"># dein Spektralachsvektor</span>
+<span class="n">px</span> <span class="o">=</span> <span class="n">nearest_pixel_for_wavelength</span><span class="p">(</span><span class="n">wl_axis</span><span class="p">,</span> <span class="n">meas_sel</span><span class="p">)</span>
+
+<span class="c1"># 4) Polyfit (nur mit den gematchten Paaren!)</span>
+<span class="n">order</span> <span class="o">=</span> <span class="mi">2</span>  <span class="c1"># ggf. 3 testen und Residuen vergleichen</span>
+<span class="n">coeffs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">polyfit</span><span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="n">ref_sel</span><span class="p">,</span> <span class="n">deg</span><span class="o">=</span><span class="n">order</span><span class="p">)</span>
+<span class="n">poly</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">poly1d</span><span class="p">(</span><span class="n">coeffs</span><span class="p">)</span>
+
+<span class="n">wl_fit</span> <span class="o">=</span> <span class="n">poly</span><span class="p">(</span><span class="n">px</span><span class="p">)</span>
+<span class="n">residuals</span> <span class="o">=</span> <span class="n">ref_sel</span> <span class="o">-</span> <span class="n">wl_fit</span>
+<span class="n">rms</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">residuals</span><span class="o">**</span><span class="mi">2</span><span class="p">)))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Polynomial (deg=</span><span class="si">{</span><span class="n">order</span><span class="si">}</span><span class="s2">) coefficients:&quot;</span><span class="p">,</span> <span class="n">coeffs</span><span class="o">.</span><span class="n">tolist</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;RMS residual [nm]: </span><span class="si">{</span><span class="n">rms</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># 5) Residuenplot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ref_sel</span><span class="p">,</span> <span class="n">residuals</span><span class="p">,</span> <span class="s1">&#39;o-&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axhline</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Reference wavelength (nm)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Residual (ref - fit) [nm]&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Calibration residuals (matched pairs)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Detected peaks: 6 | Reference lines: 7
+Matched pairs: 6 (tol=0.6 nm)
+  meas 404.655 nm ↔ ref 404.656 nm  (Δ=0.001 nm)
+  meas 435.834 nm ↔ ref 435.833 nm  (Δ=0.001 nm)
+  meas 546.074 nm ↔ ref 546.074 nm  (Δ=0.000 nm)
+  meas 577.045 nm ↔ ref 577.045 nm  (Δ=0.000 nm)
+  meas 579.066 nm ↔ ref 579.066 nm  (Δ=0.000 nm)
+  meas 588.957 nm ↔ ref 588.995 nm  (Δ=0.038 nm)
+
+Polynomial (deg=2) coefficients: [6.4537131248251475e-09, 0.13190176792092564, 380.0090471554863]
+RMS residual [nm]: 0.0266
+</pre></div>
+</div>
+<img alt="../../../../_images/b14f5e0a576188dcf2b721d076f1dada0a6140844b87a5431866ea110994254e.png" src="../../../../_images/b14f5e0a576188dcf2b721d076f1dada0a6140844b87a5431866ea110994254e.png" />
+</div>
+</div>
+<section id="interpretation-calibration-residuals">
+<h3>📊 Interpretation: Calibration Residuals<a class="headerlink" href="#interpretation-calibration-residuals" title="Link to this heading">#</a></h3>
+<p>The <em>residual plot</em> does <strong>not</strong> show the calibration curve itself — it shows how well the fitted
+polynomial describes the measured reference lines.</p>
+<p>Each point represents one spectral line used for calibration:</p>
+<div class="math notranslate nohighlight">
+\[
+\text{Residual}_i = \lambda_{\mathrm{ref},i} - \lambda_{\mathrm{fit}}(p_i)
+\]</div>
+<p>where</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\( \lambda_{\mathrm{ref},i} \)</span>  die Tabellen-Wellenlänge der Linie ist</p></li>
+<li><p><span class="math notranslate nohighlight">\( \lambda_{\mathrm{fit}}(p_i) \)</span>  die von der Kalibrationsfunktion vorhergesagte Wellenlänge am Pixel <span class="math notranslate nohighlight">\(p_i\)</span> ist</p></li>
+</ul>
+<hr class="docutils" />
+<section id="what-to-look-for">
+<h4>🔎 What to look for<a class="headerlink" href="#what-to-look-for" title="Link to this heading">#</a></h4>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Residual Pattern</p></th>
+<th class="head"><p>Interpretation</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Random scatter around 0</p></td>
+<td><p>✅ Calibration fits well (only random noise)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Curved or U-shaped trend</p></td>
+<td><p>🔧 Polynomial order too low — add one more term</p></td>
+</tr>
+<tr class="row-even"><td><p>Linear drift (all positive/negative)</p></td>
+<td><p>⚠️ Systematic offset or wrong line pairing</p></td>
+</tr>
+<tr class="row-odd"><td><p>Single outlier</p></td>
+<td><p>❌ Misidentified or blended peak</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr class="docutils" />
+<p>A good calibration typically yields residuals within <strong>±0.1 nm</strong><br />
+(≈ 2–4 cm⁻¹ uncertainty in Raman shift at 532 nm excitation).</p>
+<p>This plot is therefore a <strong>diagnostic tool</strong> — it validates that your wavelength-pixel model is accurate and unbiased across the spectrum.</p>
+</section>
+</section>
+</section>
+<section id="uncertainty-model-choice-discussion">
+<h2>📉 Uncertainty &amp; Model Choice (Discussion)<a class="headerlink" href="#uncertainty-model-choice-discussion" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Compare polynomial <strong>order 2 vs 3</strong> (and 1 as baseline).</p></li>
+<li><p>Quantify RMS residuals and inspect <strong>systematic trends</strong>.</p></li>
+<li><p>Discuss how calibration uncertainty affects <strong>Raman shift</strong> errors (cm⁻¹).</p></li>
+<li><p><strong>TODO:</strong> Repeat with your real data and document the chosen model.</p></li>
+</ul>
+</section>
+<section id="your-turn-replace-with-real-data-todo">
+<h2>✅ Your Turn — Replace with Real Data (TODO)<a class="headerlink" href="#your-turn-replace-with-real-data-todo" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Export <strong>raw spectra</strong> as CSV from OceanView.</p></li>
+<li><p>Load your files below (update the paths).</p></li>
+<li><p>Re-run detection, fitting, and calibration.</p></li>
+<li><p>Save your coefficients for Step 3 and Step 4.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># TODO: Load your real lamp spectra here</span>
+<span class="c1"># real_hg = pd.read_csv(&quot;../05_Data/calibration/Hg_reference.csv&quot;)</span>
+<span class="c1"># real_na = pd.read_csv(&quot;../05_Data/calibration/Na_reference.csv&quot;)</span>
+<span class="c1"># display(real_hg.head()); display(real_na.head())</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="save-calibration-parameters">
+<h2>💾 Save Calibration Parameters<a class="headerlink" href="#save-calibration-parameters" title="Link to this heading">#</a></h2>
+<p>Store the polynomial coefficients and metadata for reuse.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+
+<span class="n">calib</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;poly&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;order&quot;</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">order</span><span class="p">),</span>
+    <span class="s2">&quot;coefficients&quot;</span><span class="p">:</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">c</span><span class="p">)</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">coeffs</span><span class="p">],</span>
+    <span class="s2">&quot;reference_lines_nm&quot;</span><span class="p">:</span> <span class="p">[</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">reference</span><span class="p">],</span>
+    <span class="s2">&quot;notes&quot;</span><span class="p">:</span> <span class="s2">&quot;Replace with real-data fit before use.&quot;</span>
+<span class="p">}</span>
+
+<span class="n">out_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="s2">&quot;../05_Data/calibration/calibration_model_example.json&quot;</span><span class="p">)</span>
+<span class="n">out_path</span><span class="o">.</span><span class="n">parent</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">out_path</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">calib</span><span class="p">,</span> <span class="n">f</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Saved calibration parameters to:&quot;</span><span class="p">,</span> <span class="n">out_path</span><span class="o">.</span><span class="n">resolve</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<section id="navigation">
+<h3>🔗 Navigation<a class="headerlink" href="#navigation" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Back to guide: <a class="reference internal" href="../01_Experiment_Guide/step2_calibration.html"><span class="std std-doc"><code class="docutils literal notranslate"><span class="pre">01_Experiment_Guide/step2_calibration.md</span></code></span></a></p></li>
+<li><p>Next analysis: <a class="reference internal" href="raman_spectra_analysis.html"><span class="std std-doc"><code class="docutils literal notranslate"><span class="pre">raman_spectra_analysis.ipynb</span></code></span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./experiments/fp1/raman/02_Notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="README.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="raman_spectra_analysis.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Raman Spectra Analysis — Tutorial Notebook</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">🎯 Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-data-synthetic">🧪 Example Data (Synthetic)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peak-detection">🔍 Peak Detection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#peak-fitting-gaussian">🧰 Peak Fitting (Gaussian)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference-lines-matching">📏 Reference Lines &amp; Matching</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#calibration-fit-polynomial">🧮 Calibration Fit (Polynomial)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interpretation-calibration-residuals">📊 Interpretation: Calibration Residuals</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#what-to-look-for">🔎 What to look for</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-model-choice-discussion">📉 Uncertainty &amp; Model Choice (Discussion)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-turn-replace-with-real-data-todo">✅ Your Turn — Replace with Real Data (TODO)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#save-calibration-parameters">💾 Save Calibration Parameters</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#navigation">🔗 Navigation</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Physikalisches Institut, Universität Freiburg
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>Text & figures: CC BY 4.0 · Code: MIT</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
