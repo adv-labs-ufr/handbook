@@ -89,6 +89,7 @@ Pure water exhibits a broad O–H band near 3200–3400 cm⁻¹.
 ### 💻 Open the interactive notebook (Binder):
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/raman_spectra_analysis.ipynb)
+- [Polarization Notebook](../02_Notebooks/raman_spectra_analysis.ipynb)  
 
 This notebook guides you through:
 
