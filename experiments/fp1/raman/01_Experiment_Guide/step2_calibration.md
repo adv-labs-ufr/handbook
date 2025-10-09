@@ -59,7 +59,9 @@ Once the spectral lines are identified, determine the **pixel position** of each
 Then fit a polynomial to map pixel → wavelength.
   
 ### 💻 Open the interactive notebook (Binder):
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uwarring82/advanced-lab/main?labpath=experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb)
+
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb)
+
 
 
 This notebook guides you through:
