@@ -13,9 +13,19 @@ parts:
 
   - caption: Experiments
     chapters:
-      - file: experiments/raman/overview
-      - file: experiments/mossbauer/overview
-      - file: experiments/optical-pumping/overview
+      - file: experiments/README
+        sections:
+          - file: experiments/fp1/README
+            sections:
+              - file: experiments/fp1/raman/overview
+              - file: experiments/fp1/mossbauer/overview
+          - file: experiments/fp2/README
+            sections:
+              - file: experiments/fp2/eit/overview
+              - file: experiments/fp2/optical-pumping/overview
+          - file: experiments/fp-edu/README
+            sections:
+              - file: experiments/fp-edu/special-telescope/overview
 
   - caption: Appendix
     chapters:
