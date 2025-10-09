@@ -8,9 +8,7 @@ A precise calibration is essential for later conversion of pixel numbers to wave
 ## 🎯 Objective
 
 Establish a calibration function  
-\[
-\lambda(p) = a_0 + a_1 p + a_2 p^2 + \dots
-\]  
+λ(p) = a₀ + a₁·p + a₂·p² + …
 that converts **detector pixel number (p)** into **wavelength λ (in nm)** with minimal residual error.
 
 ---
@@ -59,9 +57,10 @@ Use the following well-known emission lines as calibration points:
 
 Once the spectral lines are identified, determine the **pixel position** of each peak (using OceanView or Python).  
 Then fit a polynomial to map pixel → wavelength.
+  
+### 💻 Open the interactive notebook (Binder):
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lucaseisenhart/advanced-lab/main?labpath=experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb)
 
-Open the notebook:  
-💻 [`../02_Notebooks/calibration_hg_na.ipynb`](../02_Notebooks/calibration_hg_na.ipynb)
 
 This notebook guides you through:
 - Gaussian fitting of individual emission peaks  
