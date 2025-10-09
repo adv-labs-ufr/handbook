@@ -18,7 +18,7 @@ parts:
           - file: experiments/fp1/README
             sections:
               - file: experiments/fp1/raman/overview
-              sections:
+                sections:
                   - file: experiments/fp1/raman/01_Experiment_Guide/index
                     sections:
                       - file: experiments/fp1/raman/01_Experiment_Guide/step1_setup_and_safety
