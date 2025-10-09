@@ -68,6 +68,8 @@ Measure the **polarization dependence** of Raman scattering for ethanol.
    and relate it to molecular symmetry.
 
 ### Resources
+💻 Open the interactive notebook (Binder):
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/depolarization_ratio.ipynb)
 - [Polarization Notebook](../02_Notebooks/depolarization_ratio.ipynb)  
 - [Theory of Raman Scattering](../03_Background/theory_raman_scattering.md)
 
