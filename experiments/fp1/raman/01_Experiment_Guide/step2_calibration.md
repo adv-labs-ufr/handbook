@@ -61,7 +61,7 @@ Then fit a polynomial to map pixel → wavelength.
 ### 💻 Open the interactive notebook (Binder):
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/calibration_hg_na.ipynb)
-
+- [Polarization Notebook](../02_Notebooks/calibration_hg_na.ipynb)  
 
 
 This notebook guides you through:
