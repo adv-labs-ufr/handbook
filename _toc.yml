@@ -18,6 +18,17 @@ parts:
           - file: experiments/fp1/README
             sections:
               - file: experiments/fp1/raman/overview
+              sections:
+                  - file: experiments/fp1/raman/01_Experiment_Guide/index
+                    sections:
+                      - file: experiments/fp1/raman/01_Experiment_Guide/step1_setup_and_safety
+                      - file: experiments/fp1/raman/01_Experiment_Guide/step2_calibration
+                      - file: experiments/fp1/raman/01_Experiment_Guide/step3_raman_measurement
+                      - file: experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis
+                  - file: experiments/fp1/raman/02_Notebooks/README
+                    sections:
+                      - file: experiments/fp1/raman/02_Notebooks/calibration_hg_na
+                      - file: experiments/fp1/raman/02_Notebooks/raman_spectra_analysis
               - file: experiments/fp1/mossbauer/overview
           - file: experiments/fp2/README
             sections:
