@@ -62,9 +62,7 @@ Measure the **polarization dependence** of Raman scattering for ethanol.
 1. Place a **polarizer (analyzer)** in the detection path.  
 2. Record spectra with analyzer parallel and perpendicular to the laser polarization.  
 3. Compute depolarization ratio   
-   \[
-   \rho = \frac{I_\perp}{I_\parallel}
-   \]
+   $\rho = \frac{I_\perp}{I_\parallel}$  
    and relate it to molecular symmetry.
 
 ### Resources
