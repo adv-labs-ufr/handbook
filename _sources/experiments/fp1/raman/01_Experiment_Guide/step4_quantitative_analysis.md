@@ -113,12 +113,8 @@ Consider the following sources:
 | Laser power fluctuations | \( \sigma_P \) | From output drift (~5%) |
 
 Propagate uncertainties using:
-$$
-\sigma_I^2 = 
-\left(\frac{\partial I}{\partial a}\sigma_a\right)^2 +
-\left(\frac{\partial I}{\partial b}\sigma_b\right)^2 +
-\left(\frac{\partial I}{\partial c}\sigma_c\right)^2
-$$
+
+$$\sigma_{I}^{2}=\left(\frac{\partial I}{\partial a}\sigma_{a}\right)^{2}+\left(\frac{\partial I}{\partial b}\sigma_{b}\right)^{2}+\left(\frac{\partial I}{\partial c}\sigma_{c}\right)^{2}$$
 
 Include numerical error estimates in your final report.
 
