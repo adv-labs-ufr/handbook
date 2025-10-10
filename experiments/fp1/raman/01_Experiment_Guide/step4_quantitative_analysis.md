@@ -76,22 +76,19 @@ A typical calibration of the 1050 cm⁻¹ C–O stretch peak may look like:
 | 100 | 8.1 |
 
 **Fitted relation (linear model):**
-$$
-I(c) = (0.081 \pm 0.003)\,c + (0.05 \pm 0.08)
-$$
+
+$$I(c) = (0.081 \pm 0.003)\,\cdot c + (0.05 \pm 0.08)$$
 
 **Coefficient of determination:**
-$$
-R^2 = 0.996
-$$
+
+$$R^2 = 0.996$$
+
 ---
 
 ## 📉 Determination of Detection Limit (LOD)
 
 The **limit of detection (LOD)** is defined as:
-$$
-\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}
-$$
+$$\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}$$
 
 where  
 - $\sigma_{\text{blank}}$ = standard deviation of baseline (e.g. water spectrum)  
@@ -107,10 +104,10 @@ Consider the following sources:
 
 | Source | Symbol | Comment |
 |---------|--------|----------|
-| Calibration fit error | \( \sigma_a, \sigma_b \) | From linear regression covariance |
-| Spectral noise | \( \sigma_I \) | From baseline or repeated scans |
-| Concentration preparation | \( \sigma_c \) | From volumetric mixing errors |
-| Laser power fluctuations | \( \sigma_P \) | From output drift (~5%) |
+| Calibration fit error | $\sigma_a$, $\sigma_b$ | From linear regression covariance |
+| Spectral noise | $\sigma_I$ | From baseline or repeated scans |
+| Concentration preparation | $\sigma_c$ | From volumetric mixing errors |
+| Laser power fluctuations | $\sigma_P$ | From output drift (~5%) |
 
 Propagate uncertainties using:
 
