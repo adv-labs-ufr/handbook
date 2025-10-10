@@ -55,7 +55,7 @@ This notebook guides you through the complete analysis workflow:
 2. **Baseline correction** and noise estimation  
 3. **Peak fitting** (Gaussian or Lorentzian) around 1050–1450 cm⁻¹  
 4. **Extraction of peak heights / areas**  
-5. **Linear regression:** intensity $I = a\,c + b$
+5. **Linear regression:** intensity $I = a \cdot c + b$
 6. **Error propagation** and **goodness-of-fit** evaluation  
 7. **Determination of LOD** and **quantification range**  
 8. Visualization of calibration curve and residuals  
