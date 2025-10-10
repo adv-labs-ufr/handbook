@@ -57,6 +57,8 @@
     <script async="async" src="../../../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis';</script>
     <link rel="icon" href="../../../../_static/favicon.svg"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
@@ -437,6 +439,10 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-calibration-curve">📈 Example Calibration Curve</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coefficient-of-determination-r-2-0-996"><strong>Coefficient of determination:</strong>
+$<span class="math notranslate nohighlight">\(
+R^2 = 0.996
+\)</span>$</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determination-of-detection-limit-lod">📉 Determination of Detection Limit (LOD)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-propagation">🧮 Uncertainty Propagation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">🧠 Discussion Points</a></li>
@@ -480,15 +486,15 @@ The goal is to determine how the <strong>Raman peak intensity</strong> correlate
 <li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Metadata file with sample concentrations and acquisition parameters</p></li>
 </ul>
 <p>Your data files should be structured as:</p>
-<p>05_Data/
-├─ calibration/
-├─ ethanol_water_series/
-│ ├─ ethanol_0pct.csv
-│ ├─ ethanol_20pct.csv
-│ ├─ ethanol_40pct.csv
-│ ├─ ethanol_60pct.csv
-│ ├─ ethanol_80pct.csv
-│ └─ ethanol_100pct.csv
+<p>05_Data/<br />
+├─ calibration/<br />
+├─ ethanol_water_series/<br />
+│ ├─ ethanol_0pct.csv<br />
+│ ├─ ethanol_20pct.csv<br />
+│ ├─ ethanol_40pct.csv<br />
+│ ├─ ethanol_60pct.csv<br />
+│ ├─ ethanol_80pct.csv<br />
+│ └─ ethanol_100pct.csv<br />
 └─ ouzo/</p>
 </section>
 <hr class="docutils" />
@@ -510,7 +516,7 @@ The goal is to determine how the <strong>Raman peak intensity</strong> correlate
 <li><p><strong>Baseline correction</strong> and noise estimation</p></li>
 <li><p><strong>Peak fitting</strong> (Gaussian or Lorentzian) around 1050–1450 cm⁻¹</p></li>
 <li><p><strong>Extraction of peak heights / areas</strong></p></li>
-<li><p><strong>Linear regression</strong>: intensity ( I = a , c + b )</p></li>
+<li><p><strong>Linear regression:</strong> intensity <span class="math notranslate nohighlight">\(I = a\,c + b\)</span></p></li>
 <li><p><strong>Error propagation</strong> and <strong>goodness-of-fit</strong> evaluation</p></li>
 <li><p><strong>Determination of LOD</strong> and <strong>quantification range</strong></p></li>
 <li><p>Visualization of calibration curve and residuals</p></li>
@@ -549,26 +555,27 @@ The goal is to determine how the <strong>Raman peak intensity</strong> correlate
 </tbody>
 </table>
 </div>
-<p>Fitted relation (linear model):</p>
-<p>[
-I(c) = (0.081 \pm 0.003) , c + (0.05 \pm 0.08)
-]</p>
-<p>Coefficient of determination:<br />
-[
-R^2 = 0.996
-]</p>
+<p><strong>Fitted relation (linear model):</strong>
+$<span class="math notranslate nohighlight">\(
+I(c) = (0.081 \pm 0.003)\,c + (0.05 \pm 0.08)
+\)</span>$</p>
 </section>
-<hr class="docutils" />
+<section id="coefficient-of-determination-r-2-0-996">
+<h2><strong>Coefficient of determination:</strong>
+$<span class="math notranslate nohighlight">\(
+R^2 = 0.996
+\)</span>$<a class="headerlink" href="#coefficient-of-determination-r-2-0-996" title="Link to this heading">#</a></h2>
+</section>
 <section id="determination-of-detection-limit-lod">
 <h2>📉 Determination of Detection Limit (LOD)<a class="headerlink" href="#determination-of-detection-limit-lod" title="Link to this heading">#</a></h2>
-<p>The <strong>limit of detection</strong> is defined as:</p>
-<p>[
-\text{LOD} = \frac{3 \sigma_{\text{blank}}}{a}
-]</p>
+<p>The <strong>limit of detection (LOD)</strong> is defined as:
+$<span class="math notranslate nohighlight">\(
+\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}
+\)</span>$</p>
 <p>where</p>
 <ul class="simple">
-<li><p>( \sigma_{\text{blank}} ) = standard deviation of baseline (e.g., water spectrum),</p></li>
-<li><p>( a ) = slope of calibration curve.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma_{\text{blank}}\)</span> = standard deviation of baseline (e.g. water spectrum)</p></li>
+<li><p><span class="math notranslate nohighlight">\(a\)</span> = slope of calibration curve</p></li>
 </ul>
 <p>Compute LOD and discuss whether it is limited by <strong>noise</strong>, <strong>fit error</strong>, or <strong>systematic offsets</strong> (e.g., background drift).</p>
 </section>
@@ -603,12 +610,13 @@ R^2 = 0.996
 </tbody>
 </table>
 </div>
-<p>Propagate uncertainties using:</p>
-<p>[
-\sigma_I^2 = \left(\frac{\partial I}{\partial a}\sigma_a\right)^2 +
+<p>Propagate uncertainties using:
+$<span class="math notranslate nohighlight">\(
+\sigma_I^2 = 
+\left(\frac{\partial I}{\partial a}\sigma_a\right)^2 +
 \left(\frac{\partial I}{\partial b}\sigma_b\right)^2 +
 \left(\frac{\partial I}{\partial c}\sigma_c\right)^2
-]</p>
+\)</span>$</p>
 <p>Include numerical error estimates in your final report.</p>
 </section>
 <hr class="docutils" />
@@ -739,6 +747,10 @@ R^2 = 0.996
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-calibration-curve">📈 Example Calibration Curve</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coefficient-of-determination-r-2-0-996"><strong>Coefficient of determination:</strong>
+$<span class="math notranslate nohighlight">\(
+R^2 = 0.996
+\)</span>$</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determination-of-detection-limit-lod">📉 Determination of Detection Limit (LOD)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-propagation">🧮 Uncertainty Propagation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">🧠 Discussion Points</a></li>
