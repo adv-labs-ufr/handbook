@@ -174,5 +174,6 @@ A LaTeX / Markdown template is available under:
 
 ## 🔗 Next Steps
 
+➡ Proceed to [Optional tasks](optional_tasks.md) 
 ⬅ Return to [Step 3 – Raman Measurements](step3_raman_measurement.md)  
 ⬅ Or go back to [Experiment Guide Index](index.md)
