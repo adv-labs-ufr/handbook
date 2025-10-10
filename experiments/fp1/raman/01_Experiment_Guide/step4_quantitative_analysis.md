@@ -25,15 +25,15 @@ Before starting the analysis, ensure you have:
 
 Your data files should be structured as:
 
-05_Data/
-├─ calibration/
-├─ ethanol_water_series/
-│ ├─ ethanol_0pct.csv
-│ ├─ ethanol_20pct.csv
-│ ├─ ethanol_40pct.csv
-│ ├─ ethanol_60pct.csv
-│ ├─ ethanol_80pct.csv
-│ └─ ethanol_100pct.csv
+05_Data/  
+├─ calibration/  
+├─ ethanol_water_series/  
+│ ├─ ethanol_0pct.csv  
+│ ├─ ethanol_20pct.csv  
+│ ├─ ethanol_40pct.csv  
+│ ├─ ethanol_60pct.csv  
+│ ├─ ethanol_80pct.csv  
+│ └─ ethanol_100pct.csv  
 └─ ouzo/
 
 ---
@@ -55,7 +55,7 @@ This notebook guides you through the complete analysis workflow:
 2. **Baseline correction** and noise estimation  
 3. **Peak fitting** (Gaussian or Lorentzian) around 1050–1450 cm⁻¹  
 4. **Extraction of peak heights / areas**  
-5. **Linear regression**: intensity \( I = a \, c + b \)  
+5. **Linear regression:** intensity $I = a\,c + b$
 6. **Error propagation** and **goodness-of-fit** evaluation  
 7. **Determination of LOD** and **quantification range**  
 8. Visualization of calibration curve and residuals  
@@ -75,30 +75,27 @@ A typical calibration of the 1050 cm⁻¹ C–O stretch peak may look like:
 | 80 | 6.7 |
 | 100 | 8.1 |
 
-Fitted relation (linear model):
+**Fitted relation (linear model):**
+$$
+I(c) = (0.081 \pm 0.003)\,c + (0.05 \pm 0.08)
+$$
 
-\[
-I(c) = (0.081 \pm 0.003) \, c + (0.05 \pm 0.08)
-\]
-
-Coefficient of determination:  
-\[
+**Coefficient of determination:**
+$$
 R^2 = 0.996
-\]
-
+$$
 ---
 
 ## 📉 Determination of Detection Limit (LOD)
 
-The **limit of detection** is defined as:
-
-\[
-\text{LOD} = \frac{3 \sigma_{\text{blank}}}{a}
-\]
+The **limit of detection (LOD)** is defined as:
+$$
+\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}
+$$
 
 where  
-- \( \sigma_{\text{blank}} \) = standard deviation of baseline (e.g., water spectrum),  
-- \( a \) = slope of calibration curve.
+- $\sigma_{\text{blank}}$ = standard deviation of baseline (e.g. water spectrum)  
+- $a$ = slope of calibration curve  
 
 Compute LOD and discuss whether it is limited by **noise**, **fit error**, or **systematic offsets** (e.g., background drift).
 
@@ -116,12 +113,12 @@ Consider the following sources:
 | Laser power fluctuations | \( \sigma_P \) | From output drift (~5%) |
 
 Propagate uncertainties using:
-
-\[
-\sigma_I^2 = \left(\frac{\partial I}{\partial a}\sigma_a\right)^2 +
-              \left(\frac{\partial I}{\partial b}\sigma_b\right)^2 +
-              \left(\frac{\partial I}{\partial c}\sigma_c\right)^2
-\]
+$$
+\sigma_I^2 = 
+\left(\frac{\partial I}{\partial a}\sigma_a\right)^2 +
+\left(\frac{\partial I}{\partial b}\sigma_b\right)^2 +
+\left(\frac{\partial I}{\partial c}\sigma_c\right)^2
+$$
 
 Include numerical error estimates in your final report.
 
