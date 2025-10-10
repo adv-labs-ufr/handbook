@@ -39,6 +39,23 @@ Reference: [Thorlabs CPS532-C2 Datasheet](../06_Literature/Diodenlasermodul_CPS5
 
 ---
 
+### 🔧 Experimental Setup Overview
+
+The figure below shows the Raman experiment inside the optical enclosure.
+All components relevant for alignment and safety are visible:
+
+<p align="center">
+  <img src="figures/setup_photo.png" alt="Raman setup overview" width="700">
+  <br>
+  <em>Figure 1: Raman setup with laser (left), calibration lamp (front), sample holder (center) and spectrometer (right).  
+  The experiment is enclosed by a light-tight safety housing with an interlock system.</em>
+</p>
+
+During alignment, only low laser power should be used and all beam paths must remain within the shielded enclosure.
+This setup serves both for Raman measurements and for spectrometer calibration using the Hg lamp.  
+
+---
+
 ## 🧩 Step 1 – Preparation Checklist
 
 Complete the following **before powering any laser**:
