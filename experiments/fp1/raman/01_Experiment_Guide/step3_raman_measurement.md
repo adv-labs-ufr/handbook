@@ -97,7 +97,7 @@ https://mybinder.org/v2/gh/uwarring82/advanced-lab/main?labpath=experiments/fp1/
 👉 [Open helper_peakfit_functions.ipynb](./helper_peakfit_functions.ipynb)
 
 
-This notebook guides you through:
+These notebooks guides you through:
 
 - Baseline correction and background subtraction  
 - Conversion of wavelength → Raman shift (cm⁻¹)  
