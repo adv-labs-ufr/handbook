@@ -439,10 +439,6 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-calibration-curve">📈 Example Calibration Curve</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coefficient-of-determination-r-2-0-996"><strong>Coefficient of determination:</strong>
-$<span class="math notranslate nohighlight">\(
-R^2 = 0.996
-\)</span>$</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determination-of-detection-limit-lod">📉 Determination of Detection Limit (LOD)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-propagation">🧮 Uncertainty Propagation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">🧠 Discussion Points</a></li>
@@ -555,23 +551,18 @@ The goal is to determine how the <strong>Raman peak intensity</strong> correlate
 </tbody>
 </table>
 </div>
-<p><strong>Fitted relation (linear model):</strong>
-$<span class="math notranslate nohighlight">\(
-I(c) = (0.081 \pm 0.003)\,c + (0.05 \pm 0.08)
-\)</span>$</p>
+<p><strong>Fitted relation (linear model):</strong></p>
+<div class="math notranslate nohighlight">
+\[I(c) = (0.081 \pm 0.003)\,\cdot c + (0.05 \pm 0.08)\]</div>
+<p><strong>Coefficient of determination:</strong></p>
+<div class="math notranslate nohighlight">
+\[R^2 = 0.996\]</div>
 </section>
-<section id="coefficient-of-determination-r-2-0-996">
-<h2><strong>Coefficient of determination:</strong>
-$<span class="math notranslate nohighlight">\(
-R^2 = 0.996
-\)</span>$<a class="headerlink" href="#coefficient-of-determination-r-2-0-996" title="Link to this heading">#</a></h2>
-</section>
+<hr class="docutils" />
 <section id="determination-of-detection-limit-lod">
 <h2>📉 Determination of Detection Limit (LOD)<a class="headerlink" href="#determination-of-detection-limit-lod" title="Link to this heading">#</a></h2>
 <p>The <strong>limit of detection (LOD)</strong> is defined as:
-$<span class="math notranslate nohighlight">\(
-\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}
-\)</span>$</p>
+$<span class="math notranslate nohighlight">\(\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}\)</span>$</p>
 <p>where</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\sigma_{\text{blank}}\)</span> = standard deviation of baseline (e.g. water spectrum)</p></li>
@@ -592,19 +583,19 @@ $<span class="math notranslate nohighlight">\(
 </thead>
 <tbody>
 <tr class="row-even"><td><p>Calibration fit error</p></td>
-<td><p>( \sigma_a, \sigma_b )</p></td>
+<td><p><span class="math notranslate nohighlight">\(\sigma_a\)</span>, <span class="math notranslate nohighlight">\(\sigma_b\)</span></p></td>
 <td><p>From linear regression covariance</p></td>
 </tr>
 <tr class="row-odd"><td><p>Spectral noise</p></td>
-<td><p>( \sigma_I )</p></td>
+<td><p><span class="math notranslate nohighlight">\(\sigma_I\)</span></p></td>
 <td><p>From baseline or repeated scans</p></td>
 </tr>
 <tr class="row-even"><td><p>Concentration preparation</p></td>
-<td><p>( \sigma_c )</p></td>
+<td><p><span class="math notranslate nohighlight">\(\sigma_c\)</span></p></td>
 <td><p>From volumetric mixing errors</p></td>
 </tr>
 <tr class="row-odd"><td><p>Laser power fluctuations</p></td>
-<td><p>( \sigma_P )</p></td>
+<td><p><span class="math notranslate nohighlight">\(\sigma_P\)</span></p></td>
 <td><p>From output drift (~5%)</p></td>
 </tr>
 </tbody>
@@ -743,10 +734,6 @@ $<span class="math notranslate nohighlight">\(
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-calibration-curve">📈 Example Calibration Curve</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#coefficient-of-determination-r-2-0-996"><strong>Coefficient of determination:</strong>
-$<span class="math notranslate nohighlight">\(
-R^2 = 0.996
-\)</span>$</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determination-of-detection-limit-lod">📉 Determination of Detection Limit (LOD)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-propagation">🧮 Uncertainty Propagation</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">🧠 Discussion Points</a></li>
