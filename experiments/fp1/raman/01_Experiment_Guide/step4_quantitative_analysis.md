@@ -43,10 +43,10 @@ Your data files should be structured as:
 ### 💻 Open the interactive notebook (Binder):
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/ethanol_concentration_fit.ipynb)
-👉 [Ethanol Concentration Fit Notebook](../02_Notebooks/ethanol_concentration_fit.ipynb)
-### 🔧 Helper Functions
+👉 [Ethanol Concentration Fit Notebook](../02_Notebooks/ethanol_concentration_fit.ipynb)  
+### 🔧 Helper Functions  
 Reusable functions for peak fitting, baseline subtraction, smoothing, and λ ↔ Raman shift conversion  
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/helper_peakfit_functions.ipynb)
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/helper_peakfit_functions.ipynb)  
 👉 [Open helper_peakfit_functions.ipynb](../02_Notebooks/helper_peakfit_functions.ipynb)
 
 This notebook guides you through the complete analysis workflow:
@@ -174,6 +174,6 @@ A LaTeX / Markdown template is available under:
 
 ## 🔗 Next Steps
 
-➡ Proceed to [Optional tasks](optional_tasks.md) 
+➡ Proceed to [Optional tasks](optional_tasks.md)  
 ⬅ Return to [Step 3 – Raman Measurements](step3_raman_measurement.md)  
 ⬅ Or go back to [Experiment Guide Index](index.md)
