@@ -89,7 +89,13 @@ Pure water exhibits a broad O–H band near 3200–3400 cm⁻¹.
 ### 💻 Open the interactive notebook (Binder):
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/raman_spectra_analysis.ipynb)
-- [Spectra Analysis Notebook](../02_Notebooks/raman_spectra_analysis.ipynb)  
+👉 [Spectra Analysis Notebook](../02_Notebooks/raman_spectra_analysis.ipynb)
+### 🔧 Helper Functions
+Reusable functions for peak fitting, baseline subtraction, smoothing, and λ ↔ Raman shift conversion  
+[![Open helper notebook on Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/uwarring82/advanced-lab/main?labpath=experiments/fp1/raman/02_Notebooks/helper_peakfit_functions.ipynb)
+👉 [Open helper_peakfit_functions.ipynb](./helper_peakfit_functions.ipynb)
+
 
 This notebook guides you through:
 
