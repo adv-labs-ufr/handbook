@@ -26,6 +26,7 @@ parts:
                       - file: experiments/fp1/raman/01_Experiment_Guide/step3_raman_measurement
                       - file: experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis
                       - file: experiments/fp1/raman/01_Experiment_Guide/optional_tasks
+                      title: Optional Tasks and Summary
                       options:
                         numbered: false
                         orphan: true
