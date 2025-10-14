@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Step 4 – Quantitative Analysis and Detection Limit &#8212; Advanced Lab Handbook – General Information</title>
+    <title>Optional Tasks – Advanced Investigations &#8212; Advanced Lab Handbook – General Information</title>
   
   
   
@@ -59,12 +59,12 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'experiments/fp1/raman/01_Experiment_Guide/optional_tasks';</script>
     <link rel="icon" href="../../../../_static/favicon.svg"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="Optional Tasks – Advanced Investigations" href="optional_tasks.html" />
-    <link rel="prev" title="Step 3 – Raman Measurements" href="step3_raman_measurement.html" />
+    <link rel="next" title="&lt;no title&gt;" href="../02_Notebooks/README.html" />
+    <link rel="prev" title="Step 4 – Quantitative Analysis and Detection Limit" href="step4_quantitative_analysis.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -290,7 +290,7 @@
       
       
       
-      <li><a href="https://github.com/adv-labs-ufr/handbook/edit/main/experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis.md" target="_blank"
+      <li><a href="https://github.com/adv-labs-ufr/handbook/edit/main/experiments/fp1/raman/01_Experiment_Guide/optional_tasks.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -307,7 +307,7 @@
       
       
       
-      <li><a href="https://github.com/adv-labs-ufr/handbook/issues/new?title=Issue%20on%20page%20%2Fexperiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/adv-labs-ufr/handbook/issues/new?title=Issue%20on%20page%20%2Fexperiments/fp1/raman/01_Experiment_Guide/optional_tasks.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -337,7 +337,7 @@
       
       
       
-      <li><a href="../../../../_sources/experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis.md" target="_blank"
+      <li><a href="../../../../_sources/experiments/fp1/raman/01_Experiment_Guide/optional_tasks.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -421,7 +421,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Step 4 – Quantitative Analysis and Detection Limit</h1>
+    <h1>Optional Tasks – Advanced Investigations</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -431,21 +431,39 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">🎯 Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preparation">📊 Data Preparation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-analysis">💻 Python Analysis</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-the-interactive-notebook-binder">💻 Open the interactive notebook (Binder):</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#helper-functions">🔧 Helper Functions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#temperature-dependence-of-the-green-laser-laser-pointer">🔬 1. Temperature Dependence of the Green Laser (Laser Pointer)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#objective">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#method">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-result">Expected Result</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-calibration-curve">📈 Example Calibration Curve</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determination-of-detection-limit-lod">📉 Determination of Detection Limit (LOD)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-propagation">🧮 Uncertainty Propagation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">🧠 Discussion Points</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#suggested-report-structure">📘 Suggested Report Structure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#completion-checklist-for-step-4">✅ Completion Checklist for Step 4</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">🧩 Further Reading</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">🔗 Next Steps</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparison-with-the-iodine-jod-spectroscopy-experiment">🧠 2. Comparison with the Iodine (Jod) Spectroscopy Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">Discussion Points</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spectrometer-resolution-and-linewidth">📈 3. Spectrometer Resolution and Linewidth</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Expected Result</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polarization-and-depolarization-ratio-advanced">🧲 4. Polarization and Depolarization Ratio (Advanced)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#white-light-vs-laser-excitation">💡 5. White-Light vs. Laser Excitation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">📘 Documentation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#optional-module-checklist">✅ Optional Module Checklist</a></li>
 </ul>
             </nav>
         </div>
@@ -457,208 +475,173 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="step-4-quantitative-analysis-and-detection-limit">
-<h1>Step 4 – Quantitative Analysis and Detection Limit<a class="headerlink" href="#step-4-quantitative-analysis-and-detection-limit" title="Link to this heading">#</a></h1>
-<p>In this final step, you will perform a <strong>quantitative evaluation</strong> of your Raman spectra.<br />
-The goal is to determine how the <strong>Raman peak intensity</strong> correlates with <strong>ethanol concentration</strong> in water and to evaluate the <strong>limit of detection (LOD)</strong> and <strong>measurement uncertainty</strong>.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="optional-tasks-advanced-investigations">
+<h1>Optional Tasks – Advanced Investigations<a class="headerlink" href="#optional-tasks-advanced-investigations" title="Link to this heading">#</a></h1>
+<p>These exercises are designed for students who wish to explore <strong>extensions of the Raman experiment</strong>.<br />
+They can be performed if time allows or as part of follow-up research projects.</p>
 <hr class="docutils" />
-<section id="objectives">
-<h2>🎯 Objectives<a class="headerlink" href="#objectives" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Construct a <strong>calibration curve</strong> (intensity vs. concentration)</p></li>
-<li><p>Determine the <strong>linear range</strong> and <strong>limit of detection</strong></p></li>
-<li><p>Propagate measurement uncertainties (fit parameters, noise, calibration)</p></li>
-<li><p>Compare your results with literature values and discuss limitations</p></li>
-</ul>
+<section id="temperature-dependence-of-the-green-laser-laser-pointer">
+<h2>🔬 1. Temperature Dependence of the Green Laser (Laser Pointer)<a class="headerlink" href="#temperature-dependence-of-the-green-laser-laser-pointer" title="Link to this heading">#</a></h2>
+<section id="objective">
+<h3>Objective<a class="headerlink" href="#objective" title="Link to this heading">#</a></h3>
+<p>Investigate how the <strong>emission wavelength of the 532 nm DPSS laser</strong> changes with temperature.</p>
 </section>
-<hr class="docutils" />
-<section id="data-preparation">
-<h2>📊 Data Preparation<a class="headerlink" href="#data-preparation" title="Link to this heading">#</a></h2>
-<p>Before starting the analysis, ensure you have:</p>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Calibrated spectra from Step 2</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Raman spectra of ethanol–water mixtures from Step 3</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Consistent integration times and laser power</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Metadata file with sample concentrations and acquisition parameters</p></li>
-</ul>
-<p>Your data files should be structured as:</p>
-<p>05_Data/<br />
-├─ calibration/<br />
-├─ ethanol_water_series/<br />
-│ ├─ ethanol_0pct.csv<br />
-│ ├─ ethanol_20pct.csv<br />
-│ ├─ ethanol_40pct.csv<br />
-│ ├─ ethanol_60pct.csv<br />
-│ ├─ ethanol_80pct.csv<br />
-│ └─ ethanol_100pct.csv<br />
-└─ ouzo/</p>
-</section>
-<hr class="docutils" />
-<section id="python-analysis">
-<h2>💻 Python Analysis<a class="headerlink" href="#python-analysis" title="Link to this heading">#</a></h2>
-<section id="open-the-interactive-notebook-binder">
-<h3>💻 Open the interactive notebook (Binder):<a class="headerlink" href="#open-the-interactive-notebook-binder" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/ethanol_concentration_fit.ipynb"><img alt="Open in Binder" src="https://mybinder.org/badge_logo.svg" /></a>
-👉 <span class="xref myst">Ethanol Concentration Fit Notebook</span></p>
-</section>
-<section id="helper-functions">
-<h3>🔧 Helper Functions<a class="headerlink" href="#helper-functions" title="Link to this heading">#</a></h3>
-<p>Reusable functions for peak fitting, baseline subtraction, smoothing, and λ ↔ Raman shift conversion<br />
-<a class="reference external" href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/helper_peakfit_functions.ipynb"><img alt="Open in Binder" src="https://mybinder.org/badge_logo.svg" /></a><br />
-👉 <span class="xref myst">Open helper_peakfit_functions.ipynb</span></p>
-<p>This notebook guides you through the complete analysis workflow:</p>
+<section id="method">
+<h3>Method<a class="headerlink" href="#method" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p><strong>Import spectra and metadata</strong></p></li>
-<li><p><strong>Baseline correction</strong> and noise estimation</p></li>
-<li><p><strong>Peak fitting</strong> (Gaussian or Lorentzian) around 1050–1450 cm⁻¹</p></li>
-<li><p><strong>Extraction of peak heights / areas</strong></p></li>
-<li><p><strong>Linear regression:</strong> intensity <span class="math notranslate nohighlight">\(I = a \cdot c + b\)</span></p></li>
-<li><p><strong>Error propagation</strong> and <strong>goodness-of-fit</strong> evaluation</p></li>
-<li><p><strong>Determination of LOD</strong> and <strong>quantification range</strong></p></li>
-<li><p>Visualization of calibration curve and residuals</p></li>
+<li><p>Place the laser in a controlled environment (e.g., near heating plate or cooling airflow).</p></li>
+<li><p>Record its output spectrum using the USB2000+ every 2 °C between 15 °C – 35 °C.</p></li>
+<li><p>Fit the emission peak and extract the wavelength shift.</p></li>
 </ol>
 </section>
+<section id="expected-result">
+<h3>Expected Result<a class="headerlink" href="#expected-result" title="Link to this heading">#</a></h3>
+<p>A red-shift of ~0.01–0.03 nm/°C due to changes in the nonlinear crystal’s phase matching.</p>
 </section>
-<hr class="docutils" />
-<section id="example-calibration-curve">
-<h2>📈 Example Calibration Curve<a class="headerlink" href="#example-calibration-curve" title="Link to this heading">#</a></h2>
-<p>A typical calibration of the 1050 cm⁻¹ C–O stretch peak may look like:</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Ethanol concentration (%)</p></th>
-<th class="head"><p>Peak area (arb. units)</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>0</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="row-odd"><td><p>20</p></td>
-<td><p>1.8</p></td>
-</tr>
-<tr class="row-even"><td><p>40</p></td>
-<td><p>3.6</p></td>
-</tr>
-<tr class="row-odd"><td><p>60</p></td>
-<td><p>5.2</p></td>
-</tr>
-<tr class="row-even"><td><p>80</p></td>
-<td><p>6.7</p></td>
-</tr>
-<tr class="row-odd"><td><p>100</p></td>
-<td><p>8.1</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>Fitted relation (linear model):</strong></p>
-<div class="math notranslate nohighlight">
-\[I(c) = (0.081 \pm 0.003)\,\cdot c + (0.05 \pm 0.08)\]</div>
-<p><strong>Coefficient of determination:</strong></p>
-<div class="math notranslate nohighlight">
-\[R^2 = 0.996\]</div>
-</section>
-<hr class="docutils" />
-<section id="determination-of-detection-limit-lod">
-<h2>📉 Determination of Detection Limit (LOD)<a class="headerlink" href="#determination-of-detection-limit-lod" title="Link to this heading">#</a></h2>
-<p>The <strong>limit of detection (LOD)</strong> is defined as:
-$<span class="math notranslate nohighlight">\(\text{LOD} = \frac{3\sigma_{\text{blank}}}{a}\)</span>$</p>
-<p>where</p>
+<section id="reference">
+<h3>Reference<a class="headerlink" href="#reference" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(\sigma_{\text{blank}}\)</span> = standard deviation of baseline (e.g. water spectrum)</p></li>
-<li><p><span class="math notranslate nohighlight">\(a\)</span> = slope of calibration curve</p></li>
+<li><p><a class="reference internal" href="#../06_Literature/Diodenlasermodul_CPS532-C2.pdf"><span class="xref myst">CPS532-C2 Datasheet</span></a></p></li>
 </ul>
-<p>Compute LOD and discuss whether it is limited by <strong>noise</strong>, <strong>fit error</strong>, or <strong>systematic offsets</strong> (e.g., background drift).</p>
+</section>
 </section>
 <hr class="docutils" />
-<section id="uncertainty-propagation">
-<h2>🧮 Uncertainty Propagation<a class="headerlink" href="#uncertainty-propagation" title="Link to this heading">#</a></h2>
-<p>Consider the following sources:</p>
-<div class="pst-scrollable-table-container"><table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Source</p></th>
-<th class="head"><p>Symbol</p></th>
-<th class="head"><p>Comment</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Calibration fit error</p></td>
-<td><p><span class="math notranslate nohighlight">\(\sigma_a\)</span>, <span class="math notranslate nohighlight">\(\sigma_b\)</span></p></td>
-<td><p>From linear regression covariance</p></td>
-</tr>
-<tr class="row-odd"><td><p>Spectral noise</p></td>
-<td><p><span class="math notranslate nohighlight">\(\sigma_I\)</span></p></td>
-<td><p>From baseline or repeated scans</p></td>
-</tr>
-<tr class="row-even"><td><p>Concentration preparation</p></td>
-<td><p><span class="math notranslate nohighlight">\(\sigma_c\)</span></p></td>
-<td><p>From volumetric mixing errors</p></td>
-</tr>
-<tr class="row-odd"><td><p>Laser power fluctuations</p></td>
-<td><p><span class="math notranslate nohighlight">\(\sigma_P\)</span></p></td>
-<td><p>From output drift (~5%)</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Propagate uncertainties using:</p>
-<div class="math notranslate nohighlight">
-\[\sigma_{I}^{2}=\left(\frac{\partial I}{\partial a}\sigma_{a}\right)^{2}+\left(\frac{\partial I}{\partial b}\sigma_{b}\right)^{2}+\left(\frac{\partial I}{\partial c}\sigma_{c}\right)^{2}\]</div>
-<p>Include numerical error estimates in your final report.</p>
+<section id="comparison-with-the-iodine-jod-spectroscopy-experiment">
+<h2>🧠 2. Comparison with the Iodine (Jod) Spectroscopy Experiment<a class="headerlink" href="#comparison-with-the-iodine-jod-spectroscopy-experiment" title="Link to this heading">#</a></h2>
+<section id="id1">
+<h3>Objective<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<p>Correlate Raman spectral calibration with <strong>Iodine absorption lines</strong>.</p>
 </section>
-<hr class="docutils" />
+<section id="id2">
+<h3>Method<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Compare your Hg/Na calibration (Step 2) with the reference lines used in the Jod experiment.</p></li>
+<li><p>Discuss similarities in optical alignment, dispersion, and grating calibration.</p></li>
+</ol>
+</section>
 <section id="discussion-points">
-<h2>🧠 Discussion Points<a class="headerlink" href="#discussion-points" title="Link to this heading">#</a></h2>
-<p>Reflect on the following:</p>
+<h3>Discussion Points<a class="headerlink" href="#discussion-points" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Is the calibration relationship strictly linear?</p></li>
-<li><p>How does <strong>noise</strong> or <strong>background fluorescence</strong> affect precision?</p></li>
-<li><p>What is the smallest ethanol concentration that can be confidently distinguished from pure water?</p></li>
-<li><p>Could temperature or alignment drift influence intensity ratios?</p></li>
-<li><p>How might a <strong>non-linear spectrometer calibration</strong> (from Step 2) impact concentration accuracy?</p></li>
+<li><p>How does the Raman shift relate to absolute wavelength calibration?</p></li>
+<li><p>What are the benefits of using emission vs. absorption lines?</p></li>
 </ul>
 </section>
+</section>
 <hr class="docutils" />
-<section id="suggested-report-structure">
-<h2>📘 Suggested Report Structure<a class="headerlink" href="#suggested-report-structure" title="Link to this heading">#</a></h2>
+<section id="spectrometer-resolution-and-linewidth">
+<h2>📈 3. Spectrometer Resolution and Linewidth<a class="headerlink" href="#spectrometer-resolution-and-linewidth" title="Link to this heading">#</a></h2>
+<section id="id3">
+<h3>Objective<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<p>Quantify the <strong>instrumental resolution</strong> of the USB2000+.</p>
+</section>
+<section id="id4">
+<h3>Method<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p><strong>Introduction:</strong> Raman scattering, motivation, goal</p></li>
-<li><p><strong>Methods:</strong> Setup, laser parameters, sample preparation</p></li>
-<li><p><strong>Results:</strong> Calibration plot, regression table, LOD</p></li>
-<li><p><strong>Discussion:</strong> Uncertainties, limitations, improvements</p></li>
-<li><p><strong>Appendix:</strong> Python scripts, raw data tables, error propagation derivations</p></li>
+<li><p>Record a single, narrow spectral line from the Hg lamp (e.g., 546.1 nm).</p></li>
+<li><p>Fit it with a Gaussian and determine the full width at half maximum (FWHM).</p></li>
+<li><p>Convert to cm⁻¹ at 532 nm to estimate your minimal resolvable Raman shift.</p></li>
 </ol>
-<p>A LaTeX / Markdown template is available under:<br />
-<a class="reference internal" href="#../07_Report_Template/lab_report_outline.md"><span class="xref myst"><code class="docutils literal notranslate"><span class="pre">../07_Report_Template/lab_report_outline.md</span></code></span></a></p>
+</section>
+<section id="id5">
+<h3>Expected Result<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<p>Resolution Δλ ≈ 0.4–0.6 nm → ≈ 15–20 cm⁻¹.</p>
+</section>
 </section>
 <hr class="docutils" />
-<section id="completion-checklist-for-step-4">
-<h2>✅ Completion Checklist for Step 4<a class="headerlink" href="#completion-checklist-for-step-4" title="Link to this heading">#</a></h2>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Peak intensities extracted for all ethanol concentrations</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Calibration curve plotted and regression coefficients determined</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> LOD and uncertainties evaluated</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Comparison to literature or previous results discussed</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Lab notebook updated and analysis files saved</p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Report outline prepared for submission</p></li>
-</ul>
+<section id="polarization-and-depolarization-ratio-advanced">
+<h2>🧲 4. Polarization and Depolarization Ratio (Advanced)<a class="headerlink" href="#polarization-and-depolarization-ratio-advanced" title="Link to this heading">#</a></h2>
+<section id="id6">
+<h3>Objective<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
+<p>Measure the <strong>polarization dependence</strong> of Raman scattering for ethanol.</p>
+</section>
+<section id="id7">
+<h3>Method<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Place a <strong>polarizer (analyzer)</strong> in the detection path.</p></li>
+<li><p>Record spectra with analyzer parallel and perpendicular to the laser polarization.</p></li>
+<li><p>Compute depolarization ratio<br />
+<span class="math notranslate nohighlight">\(\rho = \frac{I_\perp}{I_\parallel}\)</span><br />
+and relate it to molecular symmetry.</p></li>
+</ol>
+</section>
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Link to this heading">#</a></h3>
+<p>💻 Open the interactive notebook (Binder):
+<a class="reference external" href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/depolarization_ratio.ipynb"><img alt="Open in Binder" src="https://mybinder.org/badge_logo.svg" /></a>
+👉 <span class="xref myst">Polarization Notebook</span></p>
+<p>Reusable functions for peak fitting, baseline subtraction, smoothing, and λ ↔ Raman shift conversion<br />
+<a class="reference external" href="https://mybinder.org/v2/gh/adv-labs-ufr/handbook/main?labpath=experiments/fp1/raman/02_Notebooks/helper_peakfit_functions.ipynb"><img alt="Open in Binder" src="https://mybinder.org/badge_logo.svg" /></a>
+👉 <span class="xref myst">Open helper_peakfit_functions.ipynb</span></p>
+<p>👉 <a class="reference internal" href="#../03_Background/theory_raman_scattering.md"><span class="xref myst">Theory of Raman Scattering</span></a></p>
+</section>
 </section>
 <hr class="docutils" />
-<section id="further-reading">
-<h2>🧩 Further Reading<a class="headerlink" href="#further-reading" title="Link to this heading">#</a></h2>
+<section id="white-light-vs-laser-excitation">
+<h2>💡 5. White-Light vs. Laser Excitation<a class="headerlink" href="#white-light-vs-laser-excitation" title="Link to this heading">#</a></h2>
+<section id="id8">
+<h3>Objective<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
+<p>Compare the <strong>spectral output</strong> of LED and halogen sources with the monochromatic laser.</p>
+</section>
+<section id="id9">
+<h3>Method<a class="headerlink" href="#id9" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Record spectra of each light source using the same integration settings.</p></li>
+<li><p>Plot and compare their spectral power distributions.</p></li>
+<li><p>Discuss why Raman scattering requires coherent monochromatic excitation.</p></li>
+</ol>
+</section>
+<section id="references">
+<h3>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="#../03_Background/error_analysis_and_fitting.md"><span class="xref myst">Error Analysis and Fitting</span></a></p></li>
-<li><p><a class="reference internal" href="#../03_Background/theory_raman_scattering.md"><span class="xref myst">Theory of Raman Scattering</span></a></p></li>
-<li><p>Loudon, <em>The Quantum Theory of Light Scattering</em></p></li>
-<li><p>Long, <em>The Raman Effect</em> (Wiley, 2002)</p></li>
+<li><p><a class="reference internal" href="#../06_Literature/LED_LIUCWHA-SpecSheet.pdf"><span class="xref myst">LED_LIUCWHA Specification</span></a></p></li>
+<li><p><a class="reference internal" href="#../06_Literature/LED_LIU-PS-SpecSheet.pdf"><span class="xref myst">Halogen Source Datasheet</span></a></p></li>
 </ul>
 </section>
+</section>
 <hr class="docutils" />
-<section id="next-steps">
-<h2>🔗 Next Steps<a class="headerlink" href="#next-steps" title="Link to this heading">#</a></h2>
-<p>➡ Proceed to <a class="reference internal" href="optional_tasks.html"><span class="std std-doc">Optional tasks</span></a><br />
-⬅ Return to <a class="reference internal" href="step3_raman_measurement.html"><span class="std std-doc">Step 3 – Raman Measurements</span></a><br />
-⬅ Or go back to <a class="reference internal" href="index.html"><span class="std std-doc">Experiment Guide Index</span></a></p>
+<section id="documentation">
+<h2>📘 Documentation<a class="headerlink" href="#documentation" title="Link to this heading">#</a></h2>
+<p>For any optional measurement you perform, include in your lab notebook:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Measurement title</p></td>
+<td><p>e.g. “Temperature Drift of Laser Wavelength”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Objective</p></td>
+<td><p>One-line purpose</p></td>
+</tr>
+<tr class="row-even"><td><p>Setup sketch</p></td>
+<td><p>Schematic with parameters</p></td>
+</tr>
+<tr class="row-odd"><td><p>Raw data</p></td>
+<td><p>Filename(s)</p></td>
+</tr>
+<tr class="row-even"><td><p>Results</p></td>
+<td><p>Key numerical outcomes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Discussion</p></td>
+<td><p>Short interpretation (max. 5 sentences)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="optional-module-checklist">
+<h2>✅ Optional Module Checklist<a class="headerlink" href="#optional-module-checklist" title="Link to this heading">#</a></h2>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> One optional experiment completed (minimum)</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Data saved in <code class="docutils literal notranslate"><span class="pre">05_Data/optional/</span></code></p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Analysis documented in Python or OceanView</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Results discussed in final report</p></li>
+</ul>
+<hr class="docutils" />
+<p>⬅ Return to <a class="reference internal" href="index.html"><span class="std std-doc">Experiment Guide Index</span></a></p>
 </section>
 </section>
 
@@ -693,20 +676,20 @@ $<span class="math notranslate nohighlight">\(\text{LOD} = \frac{3\sigma_{\text{
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="step3_raman_measurement.html"
+       href="step4_quantitative_analysis.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Step 3 – Raman Measurements</p>
+        <p class="prev-next-title">Step 4 – Quantitative Analysis and Detection Limit</p>
       </div>
     </a>
     <a class="right-next"
-       href="optional_tasks.html"
+       href="../02_Notebooks/README.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Optional Tasks – Advanced Investigations</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -726,21 +709,39 @@ $<span class="math notranslate nohighlight">\(\text{LOD} = \frac{3\sigma_{\text{
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#objectives">🎯 Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-preparation">📊 Data Preparation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python-analysis">💻 Python Analysis</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-the-interactive-notebook-binder">💻 Open the interactive notebook (Binder):</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#helper-functions">🔧 Helper Functions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#temperature-dependence-of-the-green-laser-laser-pointer">🔬 1. Temperature Dependence of the Green Laser (Laser Pointer)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#objective">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#method">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-result">Expected Result</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-calibration-curve">📈 Example Calibration Curve</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#determination-of-detection-limit-lod">📉 Determination of Detection Limit (LOD)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#uncertainty-propagation">🧮 Uncertainty Propagation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">🧠 Discussion Points</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#suggested-report-structure">📘 Suggested Report Structure</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#completion-checklist-for-step-4">✅ Completion Checklist for Step 4</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#further-reading">🧩 Further Reading</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#next-steps">🔗 Next Steps</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparison-with-the-iodine-jod-spectroscopy-experiment">🧠 2. Comparison with the Iodine (Jod) Spectroscopy Experiment</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-points">Discussion Points</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spectrometer-resolution-and-linewidth">📈 3. Spectrometer Resolution and Linewidth</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Expected Result</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#polarization-and-depolarization-ratio-advanced">🧲 4. Polarization and Depolarization Ratio (Advanced)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#resources">Resources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#white-light-vs-laser-excitation">💡 5. White-Light vs. Laser Excitation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Objective</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Method</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">📘 Documentation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#optional-module-checklist">✅ Optional Module Checklist</a></li>
 </ul>
   </nav></div>
 
