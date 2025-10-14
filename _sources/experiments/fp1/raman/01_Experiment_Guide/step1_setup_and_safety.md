@@ -46,7 +46,7 @@ All components relevant for alignment and safety are visible:
 
 ### 🔧 Experimental Setup Overview
 
-![Raman setup overview](./figures/setup_photo.png){ width="700" }
+![Raman setup overview](./figures/setup_photo.png)
 
 *Figure 1: Raman setup with laser (left), Hg calibration lamp (front), sample holder (center) and USB2000+ spectrometer (right). The system is operated inside a light-tight enclosure with an interlock.*
 
