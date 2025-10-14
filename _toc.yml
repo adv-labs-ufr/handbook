@@ -25,6 +25,7 @@ parts:
                       - file: experiments/fp1/raman/01_Experiment_Guide/step2_calibration
                       - file: experiments/fp1/raman/01_Experiment_Guide/step3_raman_measurement
                       - file: experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis
+                      - file: experiments/fp1/raman/01_Experiment_Guide/optional_tasks
                   - file: experiments/fp1/raman/02_Notebooks/README
                     sections:
                       - file: experiments/fp1/raman/02_Notebooks/calibration_hg_na
