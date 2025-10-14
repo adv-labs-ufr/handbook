@@ -26,12 +26,13 @@ parts:
                       - file: experiments/fp1/raman/01_Experiment_Guide/step3_raman_measurement
                       - file: experiments/fp1/raman/01_Experiment_Guide/step4_quantitative_analysis
                       - file: experiments/fp1/raman/01_Experiment_Guide/optional_tasks
-                      - url: ../../README.html 
-                        title: Back to FP1 Experiment Overview
-                  - file: experiments/fp1/raman/02_Notebooks/README
-                    sections:
-                      - file: experiments/fp1/raman/02_Notebooks/calibration_hg_na
-                      - file: experiments/fp1/raman/02_Notebooks/raman_spectra_analysis
+                        title: Optional Tasks
+                        options:
+                          orphan: true
+              - file: experiments/fp1/raman/02_Notebooks/README
+                sections:
+                  - file: experiments/fp1/raman/02_Notebooks/calibration_hg_na
+                  - file: experiments/fp1/raman/02_Notebooks/raman_spectra_analysis
               - file: experiments/fp1/mossbauer/overview
           - file: experiments/fp2/README
             sections:
