@@ -20,6 +20,8 @@ html:
   use_edit_page_button: true
   extra_footer: |
     <p>Text & figures: CC BY 4.0 · Code: MIT</p>
+  extra_css:
+    - _static/hide-footer-optional.css
 
 sphinx:
   extra_extensions:
