@@ -23,6 +23,13 @@ All items in this step **must be completed and verified** before any laser emiss
 
 Reference: [Thorlabs CPS532-C2 Datasheet](../06_Literature/Diodenlasermodul_CPS532-C2.pdf)
 
+---  
+
+Before proceeding with the experimental setup, make sure you are familiar with the basic safety aspects and laser principles.  
+You can test your understanding by answering a few short preparation questions below:
+
+➡️ [Open Pre-Lab Preparation Questions](prelab_questions.md)
+
 ---
 
 ## 🧰 Required Equipment and Connections
