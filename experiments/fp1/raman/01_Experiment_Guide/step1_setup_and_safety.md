@@ -25,6 +25,17 @@ Reference: [Thorlabs CPS532-C2 Datasheet](../06_Literature/Diodenlasermodul_CPS5
 
 ---  
 
+## 📚 Recommended Literature and Resources
+
+Before starting the experiment, you may find it helpful to review key background information on **Raman spectroscopy**, **laser safety**, and **optical alignment**.
+
+- [Placeholder – Local Literature Library](../06_Literature/README.md)  
+  *(Link will later lead to a shared library of reference materials and datasheets.)*
+- [🎥 YouTube Playlist: Raman Experiment Tutorials](https://www.youtube.com/watch?v=jcmnXQk-FkM&list=PLihKGzQDavpupkVROGrZZrUgbXIfEKf04&index=1)  
+  *(Short explanatory videos on laser safety, calibration, and measurement procedures.)*
+
+---
+
 ## 🧩 Pre-Lab Preparation
 
 Before proceeding with the experimental setup, make sure you are familiar with the basic safety aspects and laser principles.  
