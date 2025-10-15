@@ -23,6 +23,8 @@ html:
   extra_css:
     - _static/custom.css
     - _static/hide-footer-optional.css
+  extra_js:
+    - _static/hide-footer-optional.js
 
 sphinx:
   extra_extensions:
