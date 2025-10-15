@@ -120,11 +120,10 @@ For any optional measurement you perform, include in your lab notebook:
 
 ⬅ Return to [Experiment Guide Index](index.md)  
 
-```{raw} html
+{raw} html
 <style>
 /* Nur auf dieser Seite (per data-page-Attribut) */
 body[data-page="experiments/fp1/raman/01_Experiment_Guide/optional_tasks"] .bd-article-nav {
   display: none !important;
 }
 </style>
-```
