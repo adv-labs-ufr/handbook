@@ -1,7 +1,5 @@
 # 🧩 Pre-Lab Preparation Questions
 
-⬅️ Back to [Step 1 – Setup and Safety](step1_setup_and_safety.md)
-
 Before entering the lab, take a few minutes to think through the following questions.  
 They are designed to guide your preparation for the Raman experiment.  
 You can expand each section to reveal example answers and verify your understanding.
