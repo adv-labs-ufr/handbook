@@ -32,7 +32,7 @@ Before starting the experiment, you may find it helpful to review key background
 - [Placeholder – Local Literature Library](../06_Literature/README.md)  
   *(Link will later lead to a shared library of reference materials and datasheets.)*
 - [🎥 YouTube Playlist: Raman Experiment Tutorials](https://www.youtube.com/watch?v=jcmnXQk-FkM&list=PLihKGzQDavpupkVROGrZZrUgbXIfEKf04&index=1)  
-  *(Short explanatory videos on laser safety, calibration, and measurement procedures.)*
+  *(Short explanatory videos on the Raman effect.)*
 
 ---
 
