@@ -1,0 +1,4 @@
+/* --- Hide Prev/Next footer globally (affects all pages) --- */
+.bd-article-nav {
+  display: none !important;
+}
