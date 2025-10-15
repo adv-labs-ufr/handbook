@@ -25,6 +25,8 @@ Reference: [Thorlabs CPS532-C2 Datasheet](../06_Literature/Diodenlasermodul_CPS5
 
 ---  
 
+## 🧩 Pre-Lab Preparation
+
 Before proceeding with the experimental setup, make sure you are familiar with the basic safety aspects and laser principles.  
 You can test your understanding by answering a few short preparation questions below:
 
