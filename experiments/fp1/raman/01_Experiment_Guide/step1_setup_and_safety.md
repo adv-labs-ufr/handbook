@@ -30,7 +30,7 @@ Reference: [Thorlabs CPS532-C2 Datasheet](../06_Literature/Diodenlasermodul_CPS5
 Before starting the experiment, you may find it helpful to review key background information on **Raman spectroscopy**, **laser safety**, and **optical alignment**.
 
 - [Placeholder – Local Literature Library](../06_Literature/README.md)  
-  *(Link will later lead to a shared library of reference materials and datasheets.)*
+  *(Link will lead to a shared library of reference materials.)*
 - [🎥 YouTube Playlist: Raman Experiment Tutorials](https://www.youtube.com/watch?v=jcmnXQk-FkM&list=PLihKGzQDavpupkVROGrZZrUgbXIfEKf04&index=1)  
   *(Short explanatory videos on the Raman effect.)*
 
@@ -56,6 +56,10 @@ You can test your understanding by answering a few short preparation questions b
 | **Cooling System / Interlock Box** | Ensure cooling water and interlock are enabled before laser power-on. |
 | **Optical Elements** | Mirrors, lenses, beam stops, cuvette holder, filters as shown in setup diagram. |
 | **Sample Cells** | Water · Ethanol · Mixtures · Ouzo (optional). Label each clearly. |
+
+For datasheets and user manuals of the devices listed above, see the download page:
+
+➡️ **[Device Manuals & Datasheets](manuals.md)**
 
 ---
 
