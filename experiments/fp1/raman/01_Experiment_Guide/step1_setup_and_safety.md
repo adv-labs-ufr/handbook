@@ -59,7 +59,7 @@ You can test your understanding by answering a few short preparation questions b
 
 For datasheets and user manuals of the devices listed above, see the download page:
 
-➡️ **[Device Manuals & Datasheets](manuals.md)**
+➡️ **[Device Manuals & Datasheets](manuals.html)**
 
 ---
 
