@@ -118,4 +118,12 @@ For any optional measurement you perform, include in your lab notebook:
 
 ---
 
-⬅ Return to [Experiment Guide Index](index.md)
+⬅ Return to [Experiment Guide Index](index.md)  
+
+<style>
+/* Hide Prev/Next footer ONLY on this page */
+.bd-article-nav {
+    display: none !important;
+}
+</style>
+
