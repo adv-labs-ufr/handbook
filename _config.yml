@@ -21,6 +21,7 @@ html:
   extra_footer: |
     <p>Text & figures: CC BY 4.0 · Code: MIT</p>
   extra_css:
+    - _static/custom.css
     - _static/hide-footer-optional.css
 
 sphinx:
