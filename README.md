@@ -1,7 +1,7 @@
 # Advanced Lab Handbook
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UniFreiburg-Physics/advanced-lab-handbook/main?labpath=tutorials%2Fgaussian_fit.ipynb)
 
-The Advanced Lab Handbook provides openly accessible learning materials for the Advanced Laboratory Classes (FP-I, FP-II, FP-EDU) at the Physikalisches Institut, Universität Freiburg. This repository hosts a Jupyter Book that consolidates safety information, experiment documentation, and reproducible data-analysis tutorials. While the handbook delivers context, data, and worked examples, ILIAS remains the authoritative platform for schedules, quizzes, and grading.
+The Advanced Lab Handbook provides openly accessible learning materials for the Advanced Laboratory Classes at the Physikalisches Institut, Universität Freiburg. This repository hosts a Jupyter Book that consolidates safety information, experiment documentation, and reproducible data-analysis tutorials. While the handbook delivers context, data, and worked examples, ILIAS remains the authoritative platform for schedules, quizzes, and grading.
 
 ## Repository goals
 
