@@ -1,6 +1,6 @@
 # Advanced Lab Handbook – Quick Guide
 
-PLESE NOTE: THIS HANDBOOK IS NOTE READY, YET
+PLESE NOTE: THIS HANDBOOK IS NOT READY, YET
 
 Welcome! 
 
