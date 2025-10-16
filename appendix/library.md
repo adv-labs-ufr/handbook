@@ -1,6 +1,6 @@
 # Library (Books & Key References)
 
-A compact list of **recommended books**, **method references**, and **official documents**. Use this as a starting point; tutors may suggest additional sources for specific experiments.
+A list of **recommended books**, **method references**, and **official documents** is here <https://ilias.uni-freiburg.de/goto.php/crs/4020184>. Use this as a starting point; tutors may suggest additional sources for specific experiments.
 
 ---
 
