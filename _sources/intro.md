@@ -1,6 +1,8 @@
 # Advanced Lab Handbook – Quick Guide
 
-Welcome!
+PLESE NOTE: THIS HANDBOOK IS NOTE READY, YET
+
+Welcome! 
 
 This handbook is **intentionally short and practical**. It helps you navigate the Advanced Laboratory Classes (Master Laboratory–M.Sc. Physics and Physiklabor für Fortgeschrittene Lehramtstudierende–M.Ed. Physik) efficiently. Administrative items (enrolement, schedules, team assignments, quizzes, tutor contact details, grading) are handled **exclusively on [ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)**.
 
