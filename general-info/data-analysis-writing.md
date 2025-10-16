@@ -1,4 +1,4 @@
-# Data Analysis & Writing (1 page)
+# Data Analysis & Writing
 
 **Why this matters:**  
 This is where data becomes a result others can trust.  
