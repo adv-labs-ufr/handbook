@@ -1,22 +1,36 @@
 # Experiments Overview
 
-The experiments in this handbook are now grouped by track to make it easier to find the material that matches each course offering:
+The experiments in this handbook are organized according to the **study tracks and course modules** of the Physics program at the University of Freiburg.  
+This grouping helps you quickly find the experiments relevant to your current course or degree path.
 
-- **FP1** – core experiments for the first advanced lab course.
-- **FP2** – experiments for the second advanced lab course.
-- **FP Edu (Specials)** – outreach, special topics, or education-focused experiments.
+---
 
-Each experiment folder contains:
+### **FP1 – Advanced Laboratory I**
 
-1. An `overview.md` page that is included in the book navigation.
-2. Supporting assets such as PDFs, data files, or notebooks.
-3. A reusable `README_template.md` based on the shared experiment template. Copy or rename this file when creating new material and replace the placeholder text with experiment-specific content.
+Core experiments of the *first advanced lab course* for **B.Sc. Physics** students.  
+Focus: fundamentals of modern experimental physics, measurement techniques, data evaluation, and scientific reporting.  
+Students typically complete two to three experiments within this module.
 
-To add a new experiment:
+---
 
-1. Choose the appropriate track (`fp1`, `fp2`, or `fp-edu`).
-2. Duplicate the template (`README_template.md`) into a working file (for example, `guide.md` or `overview.md`).
-3. Update `_toc.yml` so the new page appears in the navigation under the correct track.
-4. Keep resource links relative to the experiment folder to preserve portability.
+### **FP2 – Advanced Laboratory II**
 
-For a quick reference to the template, see [`templates/experiment-template.md`](../templates/experiment-template.md).
+Experiments for the *second advanced lab course*, primarily aimed at **M.Sc. Physics** students.  
+Focus: specialized methods, in-depth data analysis, and experiments closer to current research topics in atomic, molecular, solid-state, and nuclear physics.  
+The FP2 course builds on FP1 and prepares students for independent research and master’s thesis work.
+
+---
+
+### **FP Edu **
+
+Experiments developed for **Physics Education** designed for **M.Ed. Physics** students.  
+Focus: conceptual understanding, didactic translation of experimental setups, and creative projects that link research and education.
+
+---
+
+Each experiment page provides:
+- **Concise preparation hints** and learning goals.  
+- **Guidance for lab work** and in-situ discussions with tutors.  
+- **Compact analysis and reporting tips**, aligned with grading criteria.  
+
+Use the navigation on the left to explore the experiments by track.
