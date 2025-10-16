@@ -1,6 +1,6 @@
 # Prerequisites for Successful Participation
 
-This handbook is short and on-point. Below are the **minimum expectations** to work safely and effectively in the Advanced Laboratory Classes (FP-I/FP-II/FP-EDU). Details and references are collected in the **[Library](../appendix/library.md)**.
+This handbook is short and on-point. Below are the **minimum expectations** to work safely and effectively in the Advanced Laboratory Classes. Details and references are collected in the **[Library](../appendix/library.md)**. Overview about all active labs are given in this handbook und **[Experiments](../experiments/readme.md)**.
 
 ---
 
