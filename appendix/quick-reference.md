@@ -6,7 +6,7 @@ Each section begins with a brief note on **why it matters**.
 
 
 (safety-card)=
-## 1) Safety – Essential
+## Safety – Essential
 
 **Why this matters:**  
 Safety is the foundation of professional experimental physics.  
@@ -114,7 +114,7 @@ If you encounter an emergency or unsafe situation, act immediately — **do not 
 
 ---
 
-## 2) Lab Notes – Minimal Template
+## Lab Notes – Minimal Template
 
 **Why this matters:**  
 A good lab notebook is your memory and your protection.  
@@ -132,7 +132,7 @@ Your report and grade depend on what is documented here.
 
 
 (imrad-card)=
-## 3) IMRaD – 1-Page Skeleton
+## IMRaD – Skeleton
 
 **Why this matters:**  
 Scientific structure helps you communicate findings efficiently.  
@@ -147,7 +147,7 @@ Clarity is part of scientific quality.
 
 ---
 
-## 4) Plotting Standards
+## Plotting Standards
 
 **Why this matters:**  
 Plots are how physicists tell stories about data.  
@@ -164,7 +164,7 @@ Aim for reproducibility and readability at publication level.
 
 ---
 
-## 5) Uncertainty – Fast Checklist
+## Uncertainty – Fast Checklist
 
 **Why this matters:**  
 Quantifying uncertainty distinguishes science from anecdote.  
@@ -179,7 +179,7 @@ A well-documented uncertainty analysis is a mark of scientific maturity.
 
 ---
 
-## 6) Instrument Quick Checks
+## Instrument Quick Checks
 
 **Why this matters:**  
 Most measurement issues are mechanical or electronic misconfigurations.  
@@ -205,7 +205,7 @@ This is the habit of every professional experimentalist.
 
 
 (troubleshooting-card)=
-## 7) Troubleshooting – Common Paths
+## Troubleshooting – Common Paths
 
 **Why this matters:**  
 Finding problems systematically teaches experimental reasoning.  
@@ -219,22 +219,7 @@ Think like an engineer before changing parameters.
 
 ---
 
-## 8) Emergency Steps
-
-**Why this matters:**  
-Knowing what to do under stress can save lives and equipment.  
-Safety training only helps if you recall it under pressure.  
-Act quickly but never alone.
-
-1. **Stop** the source (laser shutter, HV off, pump stop if safe)  
-2. **Warn** others; clear the area  
-3. **Call** emergency **112** (organizer: (0761) 203-7645)  
-4. **Inform** tutor and organizer immediately  
-5. **Document** the event in your lab notes afterward  
-
----
-
-## 9) Submission Routing (Always)
+## Submission Routing (Always)
 
 **Why this matters:**  
 Correct submission channels guarantee your work is graded and archived properly.  
