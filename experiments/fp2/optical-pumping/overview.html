@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Optical Pumping — Overview &#8212; Advanced Lab Handbook – General Information</title>
+    <title>Optical Pumping &#8212; Advanced Lab Handbook – General Information</title>
   
   
   
@@ -199,7 +199,7 @@
 </ul>
 </details></li>
 <li class="toctree-l2 current active has-children"><a class="reference internal" href="../README.html">FP2 Experiments</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l3 current active"><a class="current reference internal" href="#">Optical Pumping — Overview</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Optical Pumping</a></li>
 </ul>
 </details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../fp-edu/README.html">FP Edu Experiments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -407,7 +407,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -418,11 +420,22 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Optical Pumping — Overview</h1>
+    <h1>Optical Pumping</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#before-the-lab">Before the Lab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-the-lab">In the Lab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#after-the-lab">After the Lab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references-resources">References &amp; Resources</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -432,18 +445,78 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="optical-pumping-overview">
-<h1>Optical Pumping — Overview<a class="headerlink" href="#optical-pumping-overview" title="Link to this heading">#</a></h1>
-<p><strong>Aim (1–2 lines):</strong><br />
-Measure Zeeman splitting and relaxation times in Rubidum vapors using optical pumping and radio-frequency transitions.</p>
-<p><strong>You will (bullets):</strong></p>
+  <section class="tex2jax_ignore mathjax_ignore" id="optical-pumping">
+<h1>Optical Pumping<a class="headerlink" href="#optical-pumping" title="Link to this heading">#</a></h1>
+<p><strong>Goal</strong><br />
+Investigate optical pumping in rubidium atoms. Observe population redistribution in magnetic sublevels under circularly polarized light and study magnetic resonance phenomena.</p>
+<p><strong>Learning outcomes</strong></p>
 <ul class="simple">
-<li><p>Align the optics and set up magnetic field coils with calibrated current supplies.</p></li>
-<li><p>Record transmission signals while sweeping RF frequency and magnetic field strength.</p></li>
-<li><p>Determine g-factors/relaxation times with uncertainty estimates from fits and calibration data.</p></li>
+<li><p>Explain how circularly polarized light induces spin polarization.</p></li>
+<li><p>Measure Zeeman splittings and relate them to the applied magnetic field.</p></li>
+<li><p>Discuss relaxation mechanisms and their influence on signal shape.</p></li>
 </ul>
-<p><strong>Experimental details:</strong><br />
+<hr class="docutils" />
+<section id="before-the-lab">
+<h2>Before the Lab<a class="headerlink" href="#before-the-lab" title="Link to this heading">#</a></h2>
+<p>Be ready to:</p>
+<ul class="simple">
+<li><p>Sketch the <strong>D₁ level scheme</strong> of Rb including hyperfine and Zeeman structure.</p></li>
+<li><p>Explain in one sentence what <em>optical pumping</em> achieves.</p></li>
+<li><p>Recall how a <strong>quarter-wave plate</strong> produces circular polarization.</p></li>
+<li><p>Review <strong>laser safety</strong> and handling of optical components.</p></li>
+</ul>
+<p><strong>Preparation hints</strong></p>
+<ul class="simple">
+<li><p>Identify typical Zeeman splittings in μT fields.</p></li>
+<li><p>Review the concept of population difference and resonance condition.</p></li>
+<li><p>Consider which parameters may limit your measurement precision.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="in-the-lab">
+<h2>In the Lab<a class="headerlink" href="#in-the-lab" title="Link to this heading">#</a></h2>
+<p>Focus on:</p>
+<ul class="simple">
+<li><p>Recording stable spectra and calibrating frequency or magnetic field scales.</p></li>
+<li><p>Checking polarization and verifying resonance conditions.</p></li>
+<li><p>Performing <strong>pre-analysis</strong>:</p>
+<ul>
+<li><p>Inspect raw data for noise, drift, or offset.</p></li>
+<li><p>Discuss with your tutor how to define <strong>statistical</strong> vs <strong>systematic</strong> uncertainties.</p></li>
+<li><p>Plan how to extract one quantitative result (e.g., g-factor or relaxation time).</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Typical discussion topics</strong></p>
+<ul class="simple">
+<li><p>Definition and estimation of measurement uncertainty.</p></li>
+<li><p>Influence of light power and magnetic field homogeneity.</p></li>
+<li><p>Choice of fit model and how to judge its validity.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="after-the-lab">
+<h2>After the Lab<a class="headerlink" href="#after-the-lab" title="Link to this heading">#</a></h2>
+<p>Perform a <strong>concise data analysis</strong>:</p>
+<ul class="simple">
+<li><p>Plot the key measurement and annotate relevant parameters.</p></li>
+<li><p>Quantify one result with uncertainty and compare to literature.</p></li>
+<li><p>Discuss possible sources of error and their impact.</p></li>
+</ul>
+<p><strong>Writing focus</strong></p>
+<ul class="simple">
+<li><p><em>Method section:</em> describe setup, measured quantities, and calibration steps briefly and clearly.</p></li>
+<li><p><em>Results section:</em> present one central figure, one quantitative table, and one paragraph interpretation.</p></li>
+<li><p><em>Discussion:</em> connect findings to physical principles and note limitations.</p></li>
+</ul>
+<p>Keep your report short (≈3 pages including figures).</p>
+</section>
+<hr class="docutils" />
+<section id="references-resources">
+<h2>References &amp; Resources<a class="headerlink" href="#references-resources" title="Link to this heading">#</a></h2>
+<p>Detailed instruction sets, rubidium data sheets, and further reading:
 <a class="reference external" href="https://ilias.uni-freiburg.de/ilias.php?baseClass=ilrepositorygui&amp;amp;ref_id=4024733">https://ilias.uni-freiburg.de/ilias.php?baseClass=ilrepositorygui&amp;ref_id=4024733</a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -500,6 +573,24 @@ Measure Zeeman splitting and relaxation times in Rubidum vapors using optical pu
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#before-the-lab">Before the Lab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-the-lab">In the Lab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#after-the-lab">After the Lab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references-resources">References &amp; Resources</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
