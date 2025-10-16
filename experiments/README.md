@@ -21,7 +21,7 @@ The FP2 course builds on FP1 and prepares students for independent research and 
 
 ---
 
-### **FP Edu **
+### **FP Edu**
 
 Experiments developed for **Physics Education** designed for **M.Ed. Physics** students.  
 Focus: conceptual understanding, didactic translation of experimental setups, and creative projects that link research and education.
