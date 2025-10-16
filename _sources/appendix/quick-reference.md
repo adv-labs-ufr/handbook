@@ -90,6 +90,23 @@ Following procedures prevents accidents and protects sensitive instrumentation.
 
 ---
 
+### 🚨 Emergency Contacts
+
+If you encounter an emergency or unsafe situation, act immediately — **do not hesitate to call for help**.
+
+| **Type of Emergency** | **Contact / Number** | **Location / Notes** |
+|------------------------|----------------------|----------------------|
+| **Fire / Medical / Police** | **112** | EU-wide emergency number |
+| **Organizer** | **0761 203 7645** | Always inform after any incident |
+| **Building Address** | Gustav-Mie-Haus, Hermann-Herder-Str. 3, 79104 Freiburg | Institute of Physics |
+
+**After any incident:**  
+- Ensure personal safety first.  
+- Inform your **tutor and organizers** as soon as possible.  
+- Provide short written documentation of what happened — this is about learning and prevention, not blame.
+
+---
+
 ### Confirmation & Documentation
 - Completion of **Safety training** on **[ILIAS](https://ilias.uni-freiburg.de/goto.php/crs/4019573)** is mandatory for lab participation – valid for 12 months–only!  
 - Tutors verify training completion before granting experiment access.  
