@@ -45,4 +45,4 @@ It complements the written report and emphasizes understanding, reasoning, and t
 - **Team presentation:** divide speaking parts logically; aim for balance.  
 - **Timing:** 10–15 min talk + 5 min discussion unless otherwise noted.  
 - **Uncertainties:** explain *how* your analysis yields the final value, not just the number.  
-- **Feedback:** tutors provide short, constructive feedback directly after the seminar.
+- **Feedback:** audiance provides short, constructive feedback directly after the seminar.
