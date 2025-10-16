@@ -60,7 +60,7 @@ Perform a **concise data analysis**:
 - *Results section:* present one central figure, one quantitative table, and one paragraph interpretation.  
 - *Discussion:* connect findings to physical principles and note limitations.
 
-Keep your report short (≈3 pages including figures).
+Keep your report short (less than ten pages + figures).
 
 ---
 
