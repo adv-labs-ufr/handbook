@@ -9,4 +9,4 @@ Measure Zeeman splitting and relaxation times in Rubidum vapors using optical pu
 - Determine g-factors/relaxation times with uncertainty estimates from fits and calibration data.
 
 **Experimental details:**  
-[Check the full description]<https://ilias.uni-freiburg.de/ilias.php?baseClass=ilrepositorygui&ref_id=4024733>
+<https://ilias.uni-freiburg.de/ilias.php?baseClass=ilrepositorygui&ref_id=4024733>
