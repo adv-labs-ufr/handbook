@@ -4,4 +4,4 @@ FP Edu (Special) experiments support teaching labs. Adapt the provided template 
 
 Active experiments:
 
-- [Special – Telescope Experiment](special-telescope/overview.md)
+- [Special – Telescope](special-telescope/overview.md)
