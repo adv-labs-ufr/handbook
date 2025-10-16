@@ -74,3 +74,6 @@ Conclude with a **joint discussion**:
 ---
 
 **Keywords:** telescope resolution, filters, photometry, HR diagram, stellar evolution, teaching physics
+
+---
+Detailed instruction sets for devices and further reading: [https://ilias.uni-freiburg.de/ilias.php?baseClass=ilrepositorygui&ref_id=4024733](https://ilias.uni-freiburg.de/ilias.php?baseClass=ilrepositorygui&ref_id=4040495)
