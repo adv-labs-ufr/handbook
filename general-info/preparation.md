@@ -1,12 +1,15 @@
-# Preparation (1-page)
+# Preparation
 
-- Learn the physics background (core concepts + parameters).
-- Plan calibrations and measurement series.
-- Prepare a 10–15 min entrance overview (motivation, aims, methods).
-- Bring a lab-notes template (date, steps, sketches, parameters).
+Before entering the lab, ensure you are well prepared — both conceptually and practically.
 
-**Goal:** Demonstrate you can plan **safe, meaningful** measurements.
+**What to do**
+- Review the **physics background**: key principles, relevant parameters, and expected effects.  
+- Plan your **measurement strategy**: calibration steps, data ranges, and how you will estimate uncertainties.  
+- Prepare a short **entrance overview (15 min)** summarizing motivation, goals, and methods — to be discussed with your tutor.  
+- Bring a **structured lab-notes template** for your measurement strategy with space for date, setup sketches, parameters, and observations — to be fine-tuned and discussed.  
+
+**Goal:** Show that you can plan and conduct **safe, purposeful, and reproducible** experiments.
 
 ```{tip}
-See the [Quick Reference cards](../appendix/quick-reference) for a detailed preparation checklist and lab-notes layout.
+See the [Quick Reference Cards](../appendix/quick-reference) for a detailed preparation checklist and a sample lab-notes layout.
 ```
