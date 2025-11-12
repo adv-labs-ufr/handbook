@@ -20,7 +20,7 @@ Experiments of the second advanced lab course, primarily for M.Sc. Physics stude
 ### **FP Edu – 5 ECTS **
 
 Experiments developed for M.Ed. Physics students, combining fundamental and didactic aspects of experimental physics.
-The FP Edu module includes two short experiments (each over two days) and one extended project (one week):
+The FP Edu module includes three short experiments (each over two days) and one extended project (one week):
 	•	The short experiments introduce the fundamentals of modern experimental physics, including measurement techniques, data evaluation, and scientific reporting.
 	•	The one-week project emphasizes the conceptual understanding of modern research topics and their didactic translation into teaching practice. It culminates in a creative seminar presentation, linking research principles with communication skills and the ability to convey complex concepts to an audience.
 
