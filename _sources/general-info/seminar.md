@@ -5,7 +5,7 @@ It complements the written report and emphasizes understanding, reasoning, and t
 
 ---
 
-## Recommended flow (≈15 min total)
+## Recommended flow (≈30 min total)
 
 1. **Motivation (1–2 slides)**  
    - What was the experiment about?  
@@ -44,5 +44,5 @@ It complements the written report and emphasizes understanding, reasoning, and t
 - **Uncertainties:** explain *how* your analysis yields the final value, not just the number.  
 - **References:** include concise citations on relevant slides (author + year).  
 - **Team presentation:** divide speaking parts logically; aim for balance.  
-- **Timing:** 15 min talk + 5 min discussion unless otherwise noted.  
+- **Timing:** 30 min talk + 25 min discussion unless otherwise noted.  
 - **Feedback:** audiance provides short, constructive feedback directly after the seminar.
