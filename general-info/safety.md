@@ -1,12 +1,10 @@
 # Safety (read & comply)
 
 **General safety training**  
-All students and tutors must complete the official **safety instruction and quiz on ILIAS** before entering the lab.  
-This covers institute-wide rules on **laser, and radiation safety**, as well as emergency procedures.
+All students and tutors must complete the official **safety instruction and quiz on ILIAS** before entering the lab. This covers institute-wide rules on **laser, and radiation safety**, as well as emergency procedures.
 
 **Lab-specific safety**  
-Each experiment may involve specific risks (e.g. high voltage, strong light sources, vacuum, or magnetic fields).  
-Discuss these **before starting** with your **tutor** or **technical staff** to ensure that all required safety measures are understood and followed.
+Each experiment may involve specific risks (e.g. high voltage, strong light sources, vacuum, or magnetic fields). Discuss these **before starting** with your **tutor** or **technical staff** to ensure that all required safety measures are understood and followed.
 
 **Good safety practices**
 - Think ahead: act so that **neither you nor others are harmed**, and that **equipment remains safe**.  
