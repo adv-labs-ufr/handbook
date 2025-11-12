@@ -10,13 +10,13 @@ Core Core experiments of the first advanced lab course for **B.Sc. Physics** stu
 
 ---
 
-### **FP2 – Advanced Laboratory II – 8 ECTS **
+### **FP2 – Advanced Laboratory II – 8 ECTS**
 
 Experiments of the second advanced lab course, primarily for **M.Sc. Physics** students. Focus: specialized experimental methods, in-depth data analysis, and experiments closely related to current research topics in atomic, molecular, solid-state, and nuclear physics. Students typically complete three experiments, comprising one short experiment (one week) and two extended experiments (two weeks each). FP II builds upon the principles of FP I and prepares students for independent research and their master’s thesis work.
 
 ---
 
-### **FP Edu – 5 ECTS **
+### **FP Edu – 5 ECTS**
 
 Experiments developed for **M.Ed. Physics** students, combining fundamental and didactic aspects of experimental physics. The FP Edu module includes three short experiments (each over two days) and one extended project (one week):
 - The short experiments introduce the fundamentals of modern experimental physics, including measurement techniques, data evaluation, and scientific reporting.
