@@ -3,5 +3,5 @@ numpy
 scipy
 matplotlib
 pandas
-jupyter-book
+jupyter-book<2
 sphinxcontrib-mermaid
