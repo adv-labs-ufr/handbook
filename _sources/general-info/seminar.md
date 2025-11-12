@@ -1,7 +1,6 @@
 # Seminar (if required for your course)
 
-The seminar presentation is your opportunity to **communicate your experiment and results clearly and convincingly**.  
-It complements the written report and emphasizes understanding, reasoning, and teamwork.
+The seminar presentation is your opportunity to **communicate your experiment and results clearly and convincingly**. It complements the written report and emphasizes understanding, reasoning, and teamwork.
 
 ---
 
